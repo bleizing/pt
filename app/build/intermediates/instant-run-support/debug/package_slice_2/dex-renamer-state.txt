@@ -1,0 +1,4 @@
+#Wed Dec 20 15:59:53 ICT 2017
+base.0=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\22
+path.0=classes.dex
+renamed.0=classes.dex

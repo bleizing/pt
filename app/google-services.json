@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020454101940",
+    "firebase_url": "https://punya-temen.firebaseio.com",
+    "project_id": "punya-temen",
+    "storage_bucket": "punya-temen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020454101940:android:40256fa61ecb8190",
+        "android_client_info": {
+          "package_name": "jullendgatc.punyatemenv4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020454101940-96j7rse1vd5lb4eovg55jir4ed44g1fm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jullendgatc.punyatemenv4",
+            "certificate_hash": "a613d26579c09bd0563680315567e7743a49c8fb"
+          }
+        },
+        {
+          "client_id": "1020454101940-qpfv6n3lhe18t2fkk4ip3lcqdlqltub0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUs3L6f_168NCH2WDKLCmeaqb7obSFJlE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020454101940-qpfv6n3lhe18t2fkk4ip3lcqdlqltub0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

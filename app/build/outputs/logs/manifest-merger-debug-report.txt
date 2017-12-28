@@ -1,0 +1,1065 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-11.4.2.aar\899eae6bb772de45d8b4b31d72f2af5f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.4.2.aar\c0d09f694d7d6b2179916fbde265b6ec\AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\30399ec56951c107d97f92574be35e70\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\360ece75f997c18a9de57eea54efa702\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\905d433166f57f98565ff81ff0968024\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\e39c12b396c35af0b93d0103fee0ce77\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.4.2.aar\b1c7be4e68e09b18dd5cbcaf55ab793b\AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.4.2.aar\6103230f771b545bdbc1398f97408dd0\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.4.2.aar\ea6c41f65f1d022bc95538e99d716ffc\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.4.2.aar\ce793bae305507cd6f46e9023989338a\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-config:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-11.4.2.aar\703ffe53a2168f8ac1a3ec55ada8902c\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-awareness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.4.2.aar\84d31d8a00b0204fcf3d590dbd1113b6\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-11.4.2.aar\1940e3ef17d86221cdc5c7d9f20e87f2\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.4.2.aar\14d93b4d00f79832cf649617d4072c35\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-fido:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.4.2.aar\fa5b376c9bf31f55bc1894ce25efdd0c\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.4.2.aar\518d3126687066389c0e900c0ba8d068\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.4.2.aar\2dada8979d1132c586f0e706d1b3ee0f\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.4.2.aar\f08fd8a9ab27d403f88ac91f7b8fad0d\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.4.2.aar\037527c38e1cc661818af68e17788846\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\36b18481cec0d38fafb3cb037b802193\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.4.2.aar\bc9b58500cb9ef89f82c3277fb1941f2\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\8c144563c41358d21e5e03aca41e7867\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\34ad33ee6ecd4911babe7aa31e144416\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.4.2.aar\fa66200608a6613f746f9ac6d2bc41b0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.4.2.aar\75d5eac5d7e71e8192a24d9ca35f2fad\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.4.2.aar\969910d4dd0624f84ef0d3c8cfc6b30c\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.4.2.aar\58f0e9095ff33555470b7220597067c6\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\722dc48fe21bc7512cdba5ef62b31357\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\b4336d193df1a4fd74f99a21efdbe91c\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\acab5287b28a934add3f6838417fb372\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\6f5b0da62f383aba5418bcc597c1801f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-crash:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.2.aar\d669d68b26249e76afea399a5ec61b14\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-database:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-11.4.2.aar\f6e9da043c2febedf983078c4edd4cfa\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.4.2.aar\697ae2bc832d29a8d72d0b984ed47bf2\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-storage:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.4.2.aar\563bfdc8af1e8657be180d5d3f1fcc85\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c8ed72b9575f9f243b717487ec3712da\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-ads:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.4.2.aar\17ca13e72bed94c9b6f7db108a45f129\AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.firebase:firebase-storage-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.4.2.aar\afaa1238f655e2fb64752edbd0ff984d\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\cb8b04becc37d116c02c860a0a0631b1\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4ede8553fe08158d53238a7787b8ba14\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\eed7ffca771f77e691c05a059ac7e944\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ae5ac07540d9a3476b931c24e6d11cb1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9532f2423b7f3ab6aec1bf0f0043a962\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\cc06c74acf618cebf5d65a1314161c1b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a865df2892349e8f3ab6731aef806607\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a2f140e75f7a68c0ae43d9a8cdeddf4e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\bec44e8848f90f7986a8d5e3f2034b1c\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\40f7d20b431be560048dc251ff2dfcb1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b6d6b43ef6d773b39315c28a564223bb\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\091da14273364523349086830bb7b81a\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\dc6930f8dcbb7598ebdd10d71fe0f75d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\941ba1a9cf2914ac2348ea0883f74481\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\d677bfb6f7aab5ebe4c0da2c65fa5efd\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2926a5724fc0da9c29f043a561b6590e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.4.2.aar\45616317ce3bf431d5ed31d580b91ecf\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.4.2.aar\32e7f8ad4a25266ade40543ba035e9aa\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.4.2.aar\ae37d6ef10f6d437bb528a5c3057859c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\8e5cb3a0f0581f24eb0f4d2a6d8ec994\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\c7cf28be44509472d93404802cd54665\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\937abae1ef2500e736412b69b2e7bbc9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.4.2.aar\425f34d490ec359c0ead3f22b348888f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.4.2.aar\b951961b1237c76983fc1b1814b2bba5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-config-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.4.2.aar\15fce197be84bb90eee16679079861ff\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-awareness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.4.2.aar\fcc2fb8c30c0bc3374d190760a1351d4\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-drive-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.4.2.aar\d358639fcb9b7bd7546a92adf32b1d69\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fido-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.4.2.aar\4161ac220e5f4a7f845ba5de218c8a81\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\3e56e5a1598886a89ba917b26c70d0b8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.4.2.aar\a928db1d54600483d44576316706cca4\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.4.2.aar\64faedb30ecac1b8db8da47bc214c699\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\c5b893cba5bb8b4e293a1759bf55bd92\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\71df36f459557ccf19630ac81ac1c0b3\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.4.2.aar\cb391ab7f190e3a11b103249f04d74f9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.4.2.aar\cfee6ceffa973dab639ca9c54072cb6b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.4.2.aar\6e2cbb2ae82fac023d250eb328f5b3bb\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-games-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.4.2.aar\7839b3a96bf2ea32682a131ecdf6cd01\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\9d1523dfc11d7bd8abd96f808f69499c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\be9a5bc32adbb7dab89bcbbea3018f44\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-appindexing-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.4.2.aar\8046a774c5e1213c9e49ce6b03108b50\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\23ec903c48b9710cf6056240c9856240\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\f66e52f2b351bb664c14d81636093626\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.4.2.aar\3b130d9a5f204976772bc2fe9034b7f8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\9bed19bde41afa11606f4b522689286f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\b8e6e984b6fbb8c67fcd5f27a193ee68\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\f0b510c062f76c12cc5936b4d7eeae2d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-nearby-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.4.2.aar\5ac8f6563eab85b250ca85b2ea58c0e2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.4.2.aar\530093279c96285b7a1dec78addcbeb0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\be1463de453cee432b493f2d1a9f67ae\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-plus-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.4.2.aar\b45f0922e0767746a367c2a216d4a9a2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.4.2.aar\e4dcbb325f37a32f1f62d856dfc07511\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.4.2.aar\88b598733a178b6d5ae9d830dd08eb6f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.4.2.aar\d307cb20b8546ce737f639f3ffa87b35\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.4.2.aar\b3188d4a7094c819125c1373ca0250c4\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\3ad8041abd11c2144d8ade89e8147a86\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\6a3c1388bf1dfb3c0da1fc187bea5571\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.4.2.aar\6ff4b890755fe26a3b61c36392c9a1ca\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:2:1-6:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.4.2.aar\fa66200608a6613f746f9ac6d2bc41b0\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.4.2.aar\fa66200608a6613f746f9ac6d2bc41b0\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.2.aar\d669d68b26249e76afea399a5ec61b14\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.2.aar\d669d68b26249e76afea399a5ec61b14\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:7:5-98
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:7:22-95
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:11:5-37:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-11.4.2.aar\899eae6bb772de45d8b4b31d72f2af5f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-11.4.2.aar\899eae6bb772de45d8b4b31d72f2af5f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.4.2.aar\c0d09f694d7d6b2179916fbde265b6ec\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.4.2.aar\c0d09f694d7d6b2179916fbde265b6ec\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\30399ec56951c107d97f92574be35e70\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\30399ec56951c107d97f92574be35e70\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\360ece75f997c18a9de57eea54efa702\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\360ece75f997c18a9de57eea54efa702\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\905d433166f57f98565ff81ff0968024\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\905d433166f57f98565ff81ff0968024\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\e39c12b396c35af0b93d0103fee0ce77\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\e39c12b396c35af0b93d0103fee0ce77\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.4.2.aar\6103230f771b545bdbc1398f97408dd0\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.4.2.aar\6103230f771b545bdbc1398f97408dd0\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-config:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-11.4.2.aar\703ffe53a2168f8ac1a3ec55ada8902c\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-11.4.2.aar\703ffe53a2168f8ac1a3ec55ada8902c\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.4.2.aar\84d31d8a00b0204fcf3d590dbd1113b6\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.4.2.aar\84d31d8a00b0204fcf3d590dbd1113b6\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-11.4.2.aar\1940e3ef17d86221cdc5c7d9f20e87f2\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-11.4.2.aar\1940e3ef17d86221cdc5c7d9f20e87f2\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.4.2.aar\14d93b4d00f79832cf649617d4072c35\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.4.2.aar\14d93b4d00f79832cf649617d4072c35\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fido:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.4.2.aar\fa5b376c9bf31f55bc1894ce25efdd0c\AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.android.gms:play-services-fido:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.4.2.aar\fa5b376c9bf31f55bc1894ce25efdd0c\AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.4.2.aar\518d3126687066389c0e900c0ba8d068\AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.4.2.aar\518d3126687066389c0e900c0ba8d068\AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-fitness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.4.2.aar\2dada8979d1132c586f0e706d1b3ee0f\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.4.2.aar\2dada8979d1132c586f0e706d1b3ee0f\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.4.2.aar\f08fd8a9ab27d403f88ac91f7b8fad0d\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.4.2.aar\f08fd8a9ab27d403f88ac91f7b8fad0d\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\36b18481cec0d38fafb3cb037b802193\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\36b18481cec0d38fafb3cb037b802193\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\8c144563c41358d21e5e03aca41e7867\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\8c144563c41358d21e5e03aca41e7867\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\34ad33ee6ecd4911babe7aa31e144416\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\34ad33ee6ecd4911babe7aa31e144416\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.4.2.aar\fa66200608a6613f746f9ac6d2bc41b0\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.4.2.aar\fa66200608a6613f746f9ac6d2bc41b0\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.4.2.aar\75d5eac5d7e71e8192a24d9ca35f2fad\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.4.2.aar\75d5eac5d7e71e8192a24d9ca35f2fad\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.4.2.aar\969910d4dd0624f84ef0d3c8cfc6b30c\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.4.2.aar\969910d4dd0624f84ef0d3c8cfc6b30c\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.4.2.aar\58f0e9095ff33555470b7220597067c6\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.4.2.aar\58f0e9095ff33555470b7220597067c6\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\722dc48fe21bc7512cdba5ef62b31357\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\722dc48fe21bc7512cdba5ef62b31357\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\b4336d193df1a4fd74f99a21efdbe91c\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\b4336d193df1a4fd74f99a21efdbe91c\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\acab5287b28a934add3f6838417fb372\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\acab5287b28a934add3f6838417fb372\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\6f5b0da62f383aba5418bcc597c1801f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\6f5b0da62f383aba5418bcc597c1801f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.2.aar\d669d68b26249e76afea399a5ec61b14\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.2.aar\d669d68b26249e76afea399a5ec61b14\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c8ed72b9575f9f243b717487ec3712da\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c8ed72b9575f9f243b717487ec3712da\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\cb8b04becc37d116c02c860a0a0631b1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\cb8b04becc37d116c02c860a0a0631b1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4ede8553fe08158d53238a7787b8ba14\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4ede8553fe08158d53238a7787b8ba14\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\eed7ffca771f77e691c05a059ac7e944\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\eed7ffca771f77e691c05a059ac7e944\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ae5ac07540d9a3476b931c24e6d11cb1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ae5ac07540d9a3476b931c24e6d11cb1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9532f2423b7f3ab6aec1bf0f0043a962\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9532f2423b7f3ab6aec1bf0f0043a962\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\cc06c74acf618cebf5d65a1314161c1b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\cc06c74acf618cebf5d65a1314161c1b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a865df2892349e8f3ab6731aef806607\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a865df2892349e8f3ab6731aef806607\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a2f140e75f7a68c0ae43d9a8cdeddf4e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a2f140e75f7a68c0ae43d9a8cdeddf4e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\bec44e8848f90f7986a8d5e3f2034b1c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\bec44e8848f90f7986a8d5e3f2034b1c\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\40f7d20b431be560048dc251ff2dfcb1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\40f7d20b431be560048dc251ff2dfcb1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b6d6b43ef6d773b39315c28a564223bb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b6d6b43ef6d773b39315c28a564223bb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\091da14273364523349086830bb7b81a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\091da14273364523349086830bb7b81a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\dc6930f8dcbb7598ebdd10d71fe0f75d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\dc6930f8dcbb7598ebdd10d71fe0f75d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\941ba1a9cf2914ac2348ea0883f74481\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\941ba1a9cf2914ac2348ea0883f74481\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\d677bfb6f7aab5ebe4c0da2c65fa5efd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\d677bfb6f7aab5ebe4c0da2c65fa5efd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2926a5724fc0da9c29f043a561b6590e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2926a5724fc0da9c29f043a561b6590e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.4.2.aar\45616317ce3bf431d5ed31d580b91ecf\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.4.2.aar\45616317ce3bf431d5ed31d580b91ecf\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.4.2.aar\32e7f8ad4a25266ade40543ba035e9aa\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.4.2.aar\32e7f8ad4a25266ade40543ba035e9aa\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.4.2.aar\ae37d6ef10f6d437bb528a5c3057859c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.4.2.aar\ae37d6ef10f6d437bb528a5c3057859c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\8e5cb3a0f0581f24eb0f4d2a6d8ec994\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\8e5cb3a0f0581f24eb0f4d2a6d8ec994\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\c7cf28be44509472d93404802cd54665\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\c7cf28be44509472d93404802cd54665\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\937abae1ef2500e736412b69b2e7bbc9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\937abae1ef2500e736412b69b2e7bbc9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.4.2.aar\425f34d490ec359c0ead3f22b348888f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.4.2.aar\425f34d490ec359c0ead3f22b348888f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.4.2.aar\b951961b1237c76983fc1b1814b2bba5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.4.2.aar\b951961b1237c76983fc1b1814b2bba5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-config-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.4.2.aar\15fce197be84bb90eee16679079861ff\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-config-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.4.2.aar\15fce197be84bb90eee16679079861ff\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.4.2.aar\fcc2fb8c30c0bc3374d190760a1351d4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.4.2.aar\fcc2fb8c30c0bc3374d190760a1351d4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.4.2.aar\d358639fcb9b7bd7546a92adf32b1d69\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.4.2.aar\d358639fcb9b7bd7546a92adf32b1d69\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.4.2.aar\4161ac220e5f4a7f845ba5de218c8a81\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.4.2.aar\4161ac220e5f4a7f845ba5de218c8a81\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\3e56e5a1598886a89ba917b26c70d0b8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\3e56e5a1598886a89ba917b26c70d0b8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.4.2.aar\a928db1d54600483d44576316706cca4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.4.2.aar\a928db1d54600483d44576316706cca4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.4.2.aar\64faedb30ecac1b8db8da47bc214c699\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.4.2.aar\64faedb30ecac1b8db8da47bc214c699\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\c5b893cba5bb8b4e293a1759bf55bd92\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\c5b893cba5bb8b4e293a1759bf55bd92\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\71df36f459557ccf19630ac81ac1c0b3\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\71df36f459557ccf19630ac81ac1c0b3\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.4.2.aar\cb391ab7f190e3a11b103249f04d74f9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.4.2.aar\cb391ab7f190e3a11b103249f04d74f9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.4.2.aar\cfee6ceffa973dab639ca9c54072cb6b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.4.2.aar\cfee6ceffa973dab639ca9c54072cb6b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.4.2.aar\6e2cbb2ae82fac023d250eb328f5b3bb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.4.2.aar\6e2cbb2ae82fac023d250eb328f5b3bb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.4.2.aar\7839b3a96bf2ea32682a131ecdf6cd01\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.4.2.aar\7839b3a96bf2ea32682a131ecdf6cd01\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\9d1523dfc11d7bd8abd96f808f69499c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\9d1523dfc11d7bd8abd96f808f69499c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\be9a5bc32adbb7dab89bcbbea3018f44\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\be9a5bc32adbb7dab89bcbbea3018f44\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.4.2.aar\8046a774c5e1213c9e49ce6b03108b50\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.4.2.aar\8046a774c5e1213c9e49ce6b03108b50\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\23ec903c48b9710cf6056240c9856240\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\23ec903c48b9710cf6056240c9856240\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\f66e52f2b351bb664c14d81636093626\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\f66e52f2b351bb664c14d81636093626\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.4.2.aar\3b130d9a5f204976772bc2fe9034b7f8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.4.2.aar\3b130d9a5f204976772bc2fe9034b7f8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\9bed19bde41afa11606f4b522689286f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\9bed19bde41afa11606f4b522689286f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\b8e6e984b6fbb8c67fcd5f27a193ee68\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\b8e6e984b6fbb8c67fcd5f27a193ee68\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\f0b510c062f76c12cc5936b4d7eeae2d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\f0b510c062f76c12cc5936b4d7eeae2d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.4.2.aar\5ac8f6563eab85b250ca85b2ea58c0e2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.4.2.aar\5ac8f6563eab85b250ca85b2ea58c0e2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.4.2.aar\530093279c96285b7a1dec78addcbeb0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.4.2.aar\530093279c96285b7a1dec78addcbeb0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\be1463de453cee432b493f2d1a9f67ae\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\be1463de453cee432b493f2d1a9f67ae\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.4.2.aar\b45f0922e0767746a367c2a216d4a9a2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.4.2.aar\b45f0922e0767746a367c2a216d4a9a2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.4.2.aar\e4dcbb325f37a32f1f62d856dfc07511\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.4.2.aar\e4dcbb325f37a32f1f62d856dfc07511\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.4.2.aar\88b598733a178b6d5ae9d830dd08eb6f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.4.2.aar\88b598733a178b6d5ae9d830dd08eb6f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.4.2.aar\d307cb20b8546ce737f639f3ffa87b35\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.4.2.aar\d307cb20b8546ce737f639f3ffa87b35\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.4.2.aar\b3188d4a7094c819125c1373ca0250c4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.4.2.aar\b3188d4a7094c819125c1373ca0250c4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\3ad8041abd11c2144d8ade89e8147a86\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\3ad8041abd11c2144d8ade89e8147a86\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\6a3c1388bf1dfb3c0da1fc187bea5571\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\6a3c1388bf1dfb3c0da1fc187bea5571\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.4.2.aar\6ff4b890755fe26a3b61c36392c9a1ca\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.4.2.aar\6ff4b890755fe26a3b61c36392c9a1ca\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:17:9-40
+activity#jullendgatc.punyatemenv4.SplasScreen
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:18:19-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:22:27-74
+activity#jullendgatc.punyatemenv4.LoginForm
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:25:9-47
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:25:19-44
+activity#jullendgatc.punyatemenv4.SignupActivity
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:26:9-52
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:26:19-49
+activity#jullendgatc.punyatemenv4.DetailItemInput
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:27:9-53
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:27:19-50
+activity#jullendgatc.punyatemenv4.ResetPasswordActivity
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:28:9-59
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:28:19-56
+activity#jullendgatc.punyatemenv4.MainActivity
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:29:19-47
+activity#jullendgatc.punyatemenv4.HomeStart
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:30:9-47
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:30:19-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:32:9-34:71
+	android:value
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:34:13-68
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:33:13-58
+activity#jullendgatc.punyatemenv4.Welcome
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:36:9-45
+	android:name
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:36:19-42
+uses-sdk
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-11.4.2.aar\899eae6bb772de45d8b4b31d72f2af5f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-11.4.2.aar\899eae6bb772de45d8b4b31d72f2af5f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.4.2.aar\c0d09f694d7d6b2179916fbde265b6ec\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.4.2.aar\c0d09f694d7d6b2179916fbde265b6ec\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\30399ec56951c107d97f92574be35e70\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\30399ec56951c107d97f92574be35e70\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\360ece75f997c18a9de57eea54efa702\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\360ece75f997c18a9de57eea54efa702\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\905d433166f57f98565ff81ff0968024\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\905d433166f57f98565ff81ff0968024\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\e39c12b396c35af0b93d0103fee0ce77\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\e39c12b396c35af0b93d0103fee0ce77\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.4.2.aar\b1c7be4e68e09b18dd5cbcaf55ab793b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.4.2.aar\b1c7be4e68e09b18dd5cbcaf55ab793b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.4.2.aar\6103230f771b545bdbc1398f97408dd0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.4.2.aar\6103230f771b545bdbc1398f97408dd0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.4.2.aar\ea6c41f65f1d022bc95538e99d716ffc\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.4.2.aar\ea6c41f65f1d022bc95538e99d716ffc\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.4.2.aar\ce793bae305507cd6f46e9023989338a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.4.2.aar\ce793bae305507cd6f46e9023989338a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-11.4.2.aar\703ffe53a2168f8ac1a3ec55ada8902c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-11.4.2.aar\703ffe53a2168f8ac1a3ec55ada8902c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.4.2.aar\84d31d8a00b0204fcf3d590dbd1113b6\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.4.2.aar\84d31d8a00b0204fcf3d590dbd1113b6\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-11.4.2.aar\1940e3ef17d86221cdc5c7d9f20e87f2\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-11.4.2.aar\1940e3ef17d86221cdc5c7d9f20e87f2\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.4.2.aar\14d93b4d00f79832cf649617d4072c35\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.4.2.aar\14d93b4d00f79832cf649617d4072c35\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fido:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.4.2.aar\fa5b376c9bf31f55bc1894ce25efdd0c\AndroidManifest.xml:4:3-41
+MERGED from [com.google.android.gms:play-services-fido:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-11.4.2.aar\fa5b376c9bf31f55bc1894ce25efdd0c\AndroidManifest.xml:4:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.4.2.aar\518d3126687066389c0e900c0ba8d068\AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.4.2.aar\518d3126687066389c0e900c0ba8d068\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-fitness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.4.2.aar\2dada8979d1132c586f0e706d1b3ee0f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.4.2.aar\2dada8979d1132c586f0e706d1b3ee0f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.4.2.aar\f08fd8a9ab27d403f88ac91f7b8fad0d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.4.2.aar\f08fd8a9ab27d403f88ac91f7b8fad0d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.4.2.aar\037527c38e1cc661818af68e17788846\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.4.2.aar\037527c38e1cc661818af68e17788846\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\36b18481cec0d38fafb3cb037b802193\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.4.2.aar\36b18481cec0d38fafb3cb037b802193\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.4.2.aar\bc9b58500cb9ef89f82c3277fb1941f2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.4.2.aar\bc9b58500cb9ef89f82c3277fb1941f2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\8c144563c41358d21e5e03aca41e7867\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.2.aar\8c144563c41358d21e5e03aca41e7867\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\34ad33ee6ecd4911babe7aa31e144416\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.2.aar\34ad33ee6ecd4911babe7aa31e144416\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.4.2.aar\fa66200608a6613f746f9ac6d2bc41b0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.4.2.aar\fa66200608a6613f746f9ac6d2bc41b0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.4.2.aar\75d5eac5d7e71e8192a24d9ca35f2fad\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.4.2.aar\75d5eac5d7e71e8192a24d9ca35f2fad\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.4.2.aar\969910d4dd0624f84ef0d3c8cfc6b30c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.4.2.aar\969910d4dd0624f84ef0d3c8cfc6b30c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.4.2.aar\58f0e9095ff33555470b7220597067c6\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.4.2.aar\58f0e9095ff33555470b7220597067c6\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\722dc48fe21bc7512cdba5ef62b31357\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.4.2.aar\722dc48fe21bc7512cdba5ef62b31357\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\b4336d193df1a4fd74f99a21efdbe91c\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.4.2.aar\b4336d193df1a4fd74f99a21efdbe91c\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\acab5287b28a934add3f6838417fb372\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\acab5287b28a934add3f6838417fb372\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\6f5b0da62f383aba5418bcc597c1801f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\6f5b0da62f383aba5418bcc597c1801f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.2.aar\d669d68b26249e76afea399a5ec61b14\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.4.2.aar\d669d68b26249e76afea399a5ec61b14\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-11.4.2.aar\f6e9da043c2febedf983078c4edd4cfa\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-11.4.2.aar\f6e9da043c2febedf983078c4edd4cfa\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.4.2.aar\697ae2bc832d29a8d72d0b984ed47bf2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.4.2.aar\697ae2bc832d29a8d72d0b984ed47bf2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.4.2.aar\563bfdc8af1e8657be180d5d3f1fcc85\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.4.2.aar\563bfdc8af1e8657be180d5d3f1fcc85\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c8ed72b9575f9f243b717487ec3712da\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c8ed72b9575f9f243b717487ec3712da\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.4.2.aar\17ca13e72bed94c9b6f7db108a45f129\AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.4.2.aar\17ca13e72bed94c9b6f7db108a45f129\AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:22:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.4.2.aar\afaa1238f655e2fb64752edbd0ff984d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.4.2.aar\afaa1238f655e2fb64752edbd0ff984d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\cb8b04becc37d116c02c860a0a0631b1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\cb8b04becc37d116c02c860a0a0631b1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4ede8553fe08158d53238a7787b8ba14\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4ede8553fe08158d53238a7787b8ba14\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\eed7ffca771f77e691c05a059ac7e944\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\eed7ffca771f77e691c05a059ac7e944\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ae5ac07540d9a3476b931c24e6d11cb1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ae5ac07540d9a3476b931c24e6d11cb1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9532f2423b7f3ab6aec1bf0f0043a962\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9532f2423b7f3ab6aec1bf0f0043a962\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\cc06c74acf618cebf5d65a1314161c1b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\cc06c74acf618cebf5d65a1314161c1b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a865df2892349e8f3ab6731aef806607\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a865df2892349e8f3ab6731aef806607\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a2f140e75f7a68c0ae43d9a8cdeddf4e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a2f140e75f7a68c0ae43d9a8cdeddf4e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\bec44e8848f90f7986a8d5e3f2034b1c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\bec44e8848f90f7986a8d5e3f2034b1c\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\40f7d20b431be560048dc251ff2dfcb1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\40f7d20b431be560048dc251ff2dfcb1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b6d6b43ef6d773b39315c28a564223bb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b6d6b43ef6d773b39315c28a564223bb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\091da14273364523349086830bb7b81a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\091da14273364523349086830bb7b81a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\dc6930f8dcbb7598ebdd10d71fe0f75d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\dc6930f8dcbb7598ebdd10d71fe0f75d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\941ba1a9cf2914ac2348ea0883f74481\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\941ba1a9cf2914ac2348ea0883f74481\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\d677bfb6f7aab5ebe4c0da2c65fa5efd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.4.2.aar\d677bfb6f7aab5ebe4c0da2c65fa5efd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2926a5724fc0da9c29f043a561b6590e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.4.2.aar\2926a5724fc0da9c29f043a561b6590e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.4.2.aar\45616317ce3bf431d5ed31d580b91ecf\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-license-11.4.2.aar\45616317ce3bf431d5ed31d580b91ecf\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.4.2.aar\32e7f8ad4a25266ade40543ba035e9aa\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-license-11.4.2.aar\32e7f8ad4a25266ade40543ba035e9aa\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.4.2.aar\ae37d6ef10f6d437bb528a5c3057859c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-license-11.4.2.aar\ae37d6ef10f6d437bb528a5c3057859c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\8e5cb3a0f0581f24eb0f4d2a6d8ec994\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.4.2.aar\8e5cb3a0f0581f24eb0f4d2a6d8ec994\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\c7cf28be44509472d93404802cd54665\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-license-11.4.2.aar\c7cf28be44509472d93404802cd54665\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\937abae1ef2500e736412b69b2e7bbc9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.4.2.aar\937abae1ef2500e736412b69b2e7bbc9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.4.2.aar\425f34d490ec359c0ead3f22b348888f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-license-11.4.2.aar\425f34d490ec359c0ead3f22b348888f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.4.2.aar\b951961b1237c76983fc1b1814b2bba5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-license-11.4.2.aar\b951961b1237c76983fc1b1814b2bba5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.4.2.aar\15fce197be84bb90eee16679079861ff\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-config-license-11.4.2.aar\15fce197be84bb90eee16679079861ff\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.4.2.aar\fcc2fb8c30c0bc3374d190760a1351d4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-awareness-license-11.4.2.aar\fcc2fb8c30c0bc3374d190760a1351d4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.4.2.aar\d358639fcb9b7bd7546a92adf32b1d69\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.4.2.aar\d358639fcb9b7bd7546a92adf32b1d69\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fido-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.4.2.aar\4161ac220e5f4a7f845ba5de218c8a81\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fido-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fido-license-11.4.2.aar\4161ac220e5f4a7f845ba5de218c8a81\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\3e56e5a1598886a89ba917b26c70d0b8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\3e56e5a1598886a89ba917b26c70d0b8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.4.2.aar\a928db1d54600483d44576316706cca4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.4.2.aar\a928db1d54600483d44576316706cca4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.4.2.aar\64faedb30ecac1b8db8da47bc214c699\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-license-11.4.2.aar\64faedb30ecac1b8db8da47bc214c699\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\c5b893cba5bb8b4e293a1759bf55bd92\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\c5b893cba5bb8b4e293a1759bf55bd92\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\71df36f459557ccf19630ac81ac1c0b3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.4.2.aar\71df36f459557ccf19630ac81ac1c0b3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.4.2.aar\cb391ab7f190e3a11b103249f04d74f9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.4.2.aar\cb391ab7f190e3a11b103249f04d74f9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.4.2.aar\cfee6ceffa973dab639ca9c54072cb6b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.4.2.aar\cfee6ceffa973dab639ca9c54072cb6b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fitness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.4.2.aar\6e2cbb2ae82fac023d250eb328f5b3bb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fitness-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-fitness-license-11.4.2.aar\6e2cbb2ae82fac023d250eb328f5b3bb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.4.2.aar\7839b3a96bf2ea32682a131ecdf6cd01\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.4.2.aar\7839b3a96bf2ea32682a131ecdf6cd01\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\9d1523dfc11d7bd8abd96f808f69499c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.4.2.aar\9d1523dfc11d7bd8abd96f808f69499c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\be9a5bc32adbb7dab89bcbbea3018f44\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.4.2.aar\be9a5bc32adbb7dab89bcbbea3018f44\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-appindexing-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.4.2.aar\8046a774c5e1213c9e49ce6b03108b50\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-appindexing-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-license-11.4.2.aar\8046a774c5e1213c9e49ce6b03108b50\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\23ec903c48b9710cf6056240c9856240\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-identity-license-11.4.2.aar\23ec903c48b9710cf6056240c9856240\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\f66e52f2b351bb664c14d81636093626\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.4.2.aar\f66e52f2b351bb664c14d81636093626\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.4.2.aar\3b130d9a5f204976772bc2fe9034b7f8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-license-11.4.2.aar\3b130d9a5f204976772bc2fe9034b7f8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\9bed19bde41afa11606f4b522689286f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.4.2.aar\9bed19bde41afa11606f4b522689286f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\b8e6e984b6fbb8c67fcd5f27a193ee68\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.4.2.aar\b8e6e984b6fbb8c67fcd5f27a193ee68\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\f0b510c062f76c12cc5936b4d7eeae2d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\f0b510c062f76c12cc5936b4d7eeae2d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.4.2.aar\5ac8f6563eab85b250ca85b2ea58c0e2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.4.2.aar\5ac8f6563eab85b250ca85b2ea58c0e2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-panorama-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.4.2.aar\530093279c96285b7a1dec78addcbeb0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-panorama-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-panorama-license-11.4.2.aar\530093279c96285b7a1dec78addcbeb0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\be1463de453cee432b493f2d1a9f67ae\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.4.2.aar\be1463de453cee432b493f2d1a9f67ae\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.4.2.aar\b45f0922e0767746a367c2a216d4a9a2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.4.2.aar\b45f0922e0767746a367c2a216d4a9a2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.4.2.aar\e4dcbb325f37a32f1f62d856dfc07511\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-license-11.4.2.aar\e4dcbb325f37a32f1f62d856dfc07511\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.4.2.aar\88b598733a178b6d5ae9d830dd08eb6f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-license-11.4.2.aar\88b598733a178b6d5ae9d830dd08eb6f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.4.2.aar\d307cb20b8546ce737f639f3ffa87b35\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-license-11.4.2.aar\d307cb20b8546ce737f639f3ffa87b35\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.4.2.aar\b3188d4a7094c819125c1373ca0250c4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-license-11.4.2.aar\b3188d4a7094c819125c1373ca0250c4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\3ad8041abd11c2144d8ade89e8147a86\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.4.2.aar\3ad8041abd11c2144d8ade89e8147a86\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\6a3c1388bf1dfb3c0da1fc187bea5571\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\6a3c1388bf1dfb3c0da1fc187bea5571\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.4.2.aar\6ff4b890755fe26a3b61c36392c9a1ca\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.4.2.aar\6ff4b890755fe26a3b61c36392c9a1ca\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:4:5-43
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\360ece75f997c18a9de57eea54efa702\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\360ece75f997c18a9de57eea54efa702\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\905d433166f57f98565ff81ff0968024\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\905d433166f57f98565ff81ff0968024\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4ede8553fe08158d53238a7787b8ba14\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\4ede8553fe08158d53238a7787b8ba14\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\eed7ffca771f77e691c05a059ac7e944\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\eed7ffca771f77e691c05a059ac7e944\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ae5ac07540d9a3476b931c24e6d11cb1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ae5ac07540d9a3476b931c24e6d11cb1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9532f2423b7f3ab6aec1bf0f0043a962\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9532f2423b7f3ab6aec1bf0f0043a962\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a865df2892349e8f3ab6731aef806607\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\a865df2892349e8f3ab6731aef806607\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a2f140e75f7a68c0ae43d9a8cdeddf4e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a2f140e75f7a68c0ae43d9a8cdeddf4e\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:27:13-51
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.4.2.aar\96af154ce6d09b254079448a129b9162\AndroidManifest.xml:7:18-90
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.4.2.aar\c0b7acc0bc66c121b828199daa162c16\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:27:9-28:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:27:85-107
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:27:108-132
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:27:19-84
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:29:9-132
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:29:83-105
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:29:106-130
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:29:18-82
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:30:9-192
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:30:143-165
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:30:166-190
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:30:86-142
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.4.2.aar\0a9828a61ecbf12c594e75adc7e60acd\AndroidManifest.xml:30:18-85
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.4.2.aar\8882c585ac5c6284a6801a175549c17d\AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.4.2.aar\a4cc35f282b8437e0a6d200baecaf666\AndroidManifest.xml:24:18-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.2.aar\fc9f5fb894fb105b133d899d483e8dd5\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.2.aar\9d5d939f3b64d3cd9f1e85f27480d3c5\AndroidManifest.xml:20:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.2.aar\3714465cd0e7e1fe1cfd3370b4ae41dd\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\82fa9beb459f9343d91fae0b0a3c5c33\AndroidManifest.xml:19:19-85
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.4.2.aar\75c1f49b5b6a261405b2278f617d04d0\AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\5966c5dd5e16df218a8103b892e5d965\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\e4a7f8497d5a866d04f82cc5e0587e2a\AndroidManifest.xml:33:16-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.4.2.aar\d6b21026cd8fda91dc2cd9b1f0e51a5f\AndroidManifest.xml:25:25-75
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:24:17-71
+permission#jullendgatc.punyatemenv4.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:26:22-76
+uses-permission#jullendgatc.punyatemenv4.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:31:13-34:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+jullendgatc.punyatemenv4
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:33:27-58
+category#jullendgatc.punyatemenv4
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\e5ac59546ac802ba5a7e2fe735013605\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\e0405caf39c1d914a86c77780ee775ac\AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.4.2.aar\acb238832b9a19f892f0aece0fb525d1\AndroidManifest.xml:25:19-71
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:20:20-65
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9163e04a1c91c73fe552463a2b576bfc\AndroidManifest.xml:26:13-58
