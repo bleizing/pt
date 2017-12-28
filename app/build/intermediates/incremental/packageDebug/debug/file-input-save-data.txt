@@ -1,15 +1,15 @@
 #Internal package file, do not edit.
-#Wed Dec 20 16:21:22 ICT 2017
-1.base=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Thu Dec 28 13:55:22 ICT 2017
+1.base=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
 2.path=classes.dex
 0.baseType=DIRECTORY
-2.base=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\36
+2.base=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 2.set=DEX
 1.baseType=DIRECTORY
 count=3
 1.set=DEX
 0.path=classes2.dex
 0.set=DEX
-0.base=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+0.base=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 2.baseType=DIRECTORY
 1.path=classes.dex
