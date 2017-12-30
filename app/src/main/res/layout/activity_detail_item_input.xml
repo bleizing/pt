@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_screen3"
     tools:context="jullendgatc.punyatemenv4.DetailItemInput">
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello! Who are you?"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/white"
-        android:textSize="25dp" />
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp">
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello! Who are you?"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -52,6 +51,6 @@
             android:text=">"
             android:textColor="@color/bg_screen3"
             android:textSize="30dp" />
-    </RelativeLayout>
+    </LinearLayout>
 
-</RelativeLayout>
+</ScrollView>

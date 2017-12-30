@@ -1,4 +1,4 @@
-#Thu Dec 28 13:55:21 ICT 2017
+#Sat Dec 30 07:06:47 ICT 2017
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
@@ -6,5 +6,5 @@ renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 base.2=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-base.1=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+base.1=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 base.0=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

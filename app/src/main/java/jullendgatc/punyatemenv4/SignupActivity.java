@@ -142,6 +142,7 @@ public class SignupActivity extends Activity {
                                                     int id = Integer.parseInt(response.getString("id"));
 
                                                     Penyewa penyewa = new Penyewa(id, email);
+                                                    Model.setPenyewa(penyewa);
 
                                                     startActivity(new Intent(SignupActivity.this, MainActivity.class));
                                                     finish();

@@ -159,6 +159,7 @@ public class LoginForm extends Activity {
                                                     String foto_ktp = response.getString("foto_ktp");
 
                                                     Penyewa penyewa = new Penyewa(id, nama, tempat_lahir, tanggal_lahir, jekel, alamat, no_hp, status, no_ktp, email, foto_ktp);
+                                                    Model.setPenyewa(penyewa);
 
                                                     Intent intent = new Intent(LoginForm.this, MainActivity.class);
                                                     startActivity(intent);

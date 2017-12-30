@@ -12,6 +12,9 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Penyewa penyewa;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -25,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        penyewa = Model.getPenyewa();
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
 
@@ -61,9 +66,14 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent abc = new Intent(MainActivity.this, DetailItemInput.class);
-                startActivity(abc);
+                if (penyewa != null) {
+                    if (penyewa.getStatus() == 0) {
+                        Intent abc = new Intent(MainActivity.this, FormVeirifkasi.class);
+                        startActivity(abc);
+                    } else {
 
+                    }
+                }
             }
         });
     }
