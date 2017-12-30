@@ -151,7 +151,7 @@ public class FormVeirifkasi extends AppCompatActivity {
         }
         Log.d(TAG, "jsonObject = " + jsonObject.toString());
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.url, jsonObject, new Response.Listener<JSONObject>() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.URL, jsonObject, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
                 Log.d(TAG, "updateProfileResponse : " + response);

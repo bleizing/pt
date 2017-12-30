@@ -2,9 +2,7 @@ package jullendgatc.punyatemenv4;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -29,8 +27,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.lang.reflect.Method;
 
 public class SignupActivity extends Activity {
     private static final String TAG = "SignupActivity";
@@ -129,7 +125,7 @@ public class SignupActivity extends Activity {
                                         e.printStackTrace();
                                     }
 
-                                    JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.url, jsonObject, new Response.Listener<JSONObject>() {
+                                    JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.URL, jsonObject, new Response.Listener<JSONObject>() {
                                         @Override
                                         public void onResponse(JSONObject response) {
                                             progressBar.setVisibility(View.GONE);

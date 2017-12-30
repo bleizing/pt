@@ -21,10 +21,7 @@
 package jullendgatc.punyatemenv4;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
 import android.util.Log;
@@ -33,7 +30,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,15 +40,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.io.IOException;
-import java.lang.reflect.Method;
-
-import static android.app.Activity.RESULT_OK;
 
 public class ItemThreeFragment extends Fragment {
     private static final String TAG = "UpdateProfile";
@@ -91,7 +81,7 @@ public class ItemThreeFragment extends Fragment {
         editNoId = (EditText) view.findViewById(R.id.edNoId);
         editNoTelp = (EditText) view.findViewById(R.id.edTelp);
 
-//        setAttributeEditText(penyewa.getNama(), penyewa.getNo_ktp(), penyewa.getNo_hp());
+        setAttributeEditText(penyewa.getNama(), penyewa.getNo_ktp(), penyewa.getNo_hp());
 
         Button btn_simpan = (Button) view.findViewById(R.id.btn_simpan);
         btn_simpan.setOnClickListener(new View.OnClickListener() {
@@ -128,7 +118,7 @@ public class ItemThreeFragment extends Fragment {
                 }
                 Log.d(TAG, "jsonObject = " + jsonObject.toString());
 
-                JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.url, jsonObject, new Response.Listener<JSONObject>() {
+                JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.URL, jsonObject, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         Log.d(TAG, "updateProfileResponse : " + response);

@@ -3,8 +3,6 @@ package jullendgatc.punyatemenv4;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -50,10 +48,10 @@ public class LoginForm extends Activity {
         // Request Queue Volley Network Connection
         requestQueue = Volley.newRequestQueue(LoginForm.this);
 
-        if (auth.getCurrentUser() != null) {
-            startActivity(new Intent(LoginForm.this, MainActivity.class));
-            finish();
-        }
+//        if (auth.getCurrentUser() != null) {
+//            startActivity(new Intent(LoginForm.this, MainActivity.class));
+//            finish();
+//        }
         // remove title
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -71,9 +69,6 @@ public class LoginForm extends Activity {
         btnSignup = (Button) findViewById(R.id.btn_signup);
         btnLogin = (Button) findViewById(R.id.btn_login);
         btnReset = (Button) findViewById(R.id.btn_reset_password);
-
-        //Get Firebase auth instance
-        auth = FirebaseAuth.getInstance();
 
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -137,7 +132,7 @@ public class LoginForm extends Activity {
                                     }
 
                                     // Make a Request
-                                    JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.url, jsonObject, new Response.Listener<JSONObject>() {
+                                    JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, NetAPI.URL, jsonObject, new Response.Listener<JSONObject>() {
                                         @Override
                                         public void onResponse(JSONObject response) {
                                             progressBar.setVisibility(View.GONE);
