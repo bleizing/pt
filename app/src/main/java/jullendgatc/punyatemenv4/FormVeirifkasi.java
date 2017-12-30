@@ -102,7 +102,7 @@ public class FormVeirifkasi extends AppCompatActivity {
                 }
 
                 if (TextUtils.isEmpty(image) || image.equals("")) {
-                    Toast.makeText(FormVeirifkasi.this, "No Telepon Harus Diisi!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(FormVeirifkasi.this, "Foto Harus Diisi!", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 sendData(nama, noId, noTelp, image);

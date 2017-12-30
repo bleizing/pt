@@ -1,5 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="backup_country_codes" translatable="false">
+        <item>"SX"</item>
+        <item>"BQ"</item>
+        <item>"CW"</item>
+        <item>"SS"</item>
+    </string-array>
+    <string-array name="backup_country_names">
+        <item>"Sint Maarten"</item>
+        <item>"Karibische Niederlande"</item>
+        <item>"Curaçao"</item>
+        <item>"Südsudan"</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>STÜNDLICH WIEDERHOLEN</item>
+        <item>TÄGLICH WIEDERHOLEN</item>
+        <item>WÖCHENTLICH WIEDERHOLEN</item>
+        <item>MONATLICH WIEDERHOLEN</item>
+        <item>JÄHRLICH WIEDERHOLEN</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>jeden ersten Freitag</item>
+        <item>jeden zweiten Freitag</item>
+        <item>jeden dritten Freitag</item>
+        <item>jeden vierten Freitag</item>
+        <item>jeden letzten Freitag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>jeden ersten Montag</item>
+        <item>jeden zweiten Montag</item>
+        <item>jeden dritten Montag</item>
+        <item>jeden vierten Montag</item>
+        <item>jeden letzten Montag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>jeden ersten Samstag</item>
+        <item>jeden zweiten Samstag</item>
+        <item>jeden dritten Samstag</item>
+        <item>jeden vierten Samstag</item>
+        <item>jeden letzten Samstag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>jeden ersten Sonntag</item>
+        <item>jeden zweiten Sonntag</item>
+        <item>jeden dritten Sonntag</item>
+        <item>jeden vierten Sonntag</item>
+        <item>jeden letzten Sonntag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>jeden ersten Donnerstag</item>
+        <item>jeden zweiten Donnerstag</item>
+        <item>jeden dritten Donnerstag</item>
+        <item>jeden vierten Donnerstag</item>
+        <item>jeden letzten Donnerstag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>jeden ersten Dienstag</item>
+        <item>jeden zweiten Dienstag</item>
+        <item>jeden dritten Dienstag</item>
+        <item>jeden vierten Dienstag</item>
+        <item>jeden letzten Dienstag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>jeden ersten Mittwoch</item>
+        <item>jeden zweiten Mittwoch</item>
+        <item>jeden dritten Mittwoch</item>
+        <item>jeden vierten Mittwoch</item>
+        <item>jeden letzten Mittwoch</item>
+    </string-array>
+    <string-array name="timezone_rename_ids" translatable="false">
+
+        <!-- Australia -->
+        <item>"Australien/Darwin"</item>
+        <item>"Australien/Adelaide"</item>
+        <item>"Australien/Brisbane"</item>
+        <item>"Australien/Sydney"</item>
+
+        <!-- Canada -->
+        <!-- Non DST version -->
+        <item>"Amerika/Dawson_Creek"</item>
+        <!-- Non DST version -->
+        <item>"Amerika/Regina"</item>
+        <!-- Non DST version -->
+        <item>"Amerika/Atikokan"</item>
+        <!-- Non DST version -->
+        <item>"Amerika/Blanc-Sablon"</item>
+
+        <!-- US -->
+        <!-- Non DST version -->
+        <item>"Pazifik/Honolulu"</item>
+        <!-- DST version -->
+        <item>"Amerika/Adak"</item>
+        <!-- Non DST version -->
+        <item>"Amerika/Metlakatla"</item>
+        <!-- Non DST version -->
+        <item>"Amerika/Phoenix"</item>
+
+        <!-- Mexico -->
+        <!-- DST version with post-2006 US rule -->
+        <item>"Amerika/Tijuana"</item>
+        <!-- DST version with post-2006 US rule -->
+        <item>"Amerika/Ojinaga"</item>
+        <!-- DST version with post-2006 US rule -->
+        <item>"Amerika/Matamoros"</item>
+        <!-- Non DST version -->
+        <item>"Amerika/Hermosillo"</item>
+
+        <!-- Other time zones with missing labels from the framework -->
+        <!-- Missing string in ICS -->
+        <item>"Afrika/Juba"</item>
+        <!-- Missing string in ICS -->
+        <item>"Amerika/Kralendijk"</item>
+        <!-- Missing string in ICS -->
+        <item>"Amerika/Lower_Princes"</item>
+        <!-- Only had GMT as the display string -->
+        <item>"Europa/Minsk"</item>
+        <!-- Only had GMT as the display string -->
+        <item>"Europa/Kaliningrad"</item>
+
+        <!-- Brazil -->
+        <!-- Non DST version -->
+        <item>"Amerika/Porto_Velho"</item>
+        <!-- Non DST version -->
+        <item>"Amerika/Belem"</item>
+    </string-array>
+    <string-array name="timezone_rename_labels">
+
+        <!-- Australia -->
+        <item>"Zentral-Australien - NT"</item>
+        <item>"Zentral-Australien - SA"</item>
+        <item>"Ost-Australien - QLD"</item>
+        <item>"Ost-Australien - NSW"</item>
+
+        <!-- Canada -->
+        <item>"Mountain Standard - Dawson Creek"</item>
+        <item>"Central Standard - Saskatchewan"</item>
+        <item>"Eastern Standard - Atikokan"</item>
+        <item>"Atlantic Standard - Quebec"</item>
+
+        <!-- US -->
+        <item>"Hawaii-Aleutian - Hawaii"</item>
+        <item>"Hawaii-Aleutian - Alaska"</item>
+        <item>"Pacific Standard - Metlakatla"</item>
+        <item>"Mountain Standard - Arizona"</item>
+
+        <!-- Mexico -->
+        <item>"Pacific - Baja California"</item>
+        <item>"Mountain - Chihuahua"</item>
+        <item>"Central - Tamaulipas"</item>
+        <item>"Mountain - Sonora"</item>
+
+        <!-- Other countries with missing or undesirable labels from the framework -->
+        <item>"Ostafrikanische Zeit"</item>
+        <item>"Atlantische Normalzeit"</item>
+        <item>"Atlantische Normalzeit"</item>
+        <item>"Osteuropeische Zeit"</item>
+        <item>"Kaliningrad"</item>
+
+        <!-- Brazil -->
+        <!-- Non DST version of Amazon Standard Time -->
+        <item>"Amazon - Rondônia"</item>
+        <!-- Non DST version of Brasilia Standard Time -->
+        <item>"Brasilia - Pará"</item>
+    </string-array>
+    <plurals name="daily">
+        <item quantity="one">Täglich</item>
+        <item quantity="other">Alle <ns1:g id="number">%d</ns1:g> Tage</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="one">; einmal</item>
+        <item quantity="other">; <ns1:g id="number">%d</ns1:g> mal</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one"><ns1:g id="event_count">%d</ns1:g> Wiederholung</item>
+        <item quantity="other"><ns1:g id="event_count">%d</ns1:g> Wiederholungen</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Nach <ns1:g id="count">%d</ns1:g> Tag</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Nach <ns1:g id="count">%d</ns1:g> Tagen</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Nach <ns1:g id="count">%d</ns1:g> Monat</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Nach <ns1:g id="count">%d</ns1:g> Monaten</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Nach <ns1:g id="count">%d</ns1:g> Woche</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Nach <ns1:g id="count">%d</ns1:g> Wochen</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Nach <ns1:g id="count">%d</ns1:g> Jahr</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Nach <ns1:g id="count">%d</ns1:g> Jahren</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="one">Wöchentlich am <ns1:g id="days_of_week">%2$s</ns1:g></item>
+        <item quantity="other">Alle <ns1:g id="number">%1$d</ns1:g> Wochen am <ns1:g id="days_of_week">%2$s</ns1:g></item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
@@ -19,6 +222,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="acessibility_recurrence_choose_end_date_description">Enddatum ändern</string>
     <string msgid="4778414446709286370" name="cast_ad_label">"Werbeanzeige"</string>
     <string msgid="366047012176970604" name="cast_casting_to_device">"Inhalte werden an %1$s gestreamt"</string>
     <string msgid="2888745622334830481" name="cast_closed_captions">"Untertitel"</string>
@@ -73,8 +277,33 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Anmelden"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string name="day_c">TAG</string>
+    <string name="day_picker_description">Monatsübersicht</string>
+    <string name="deleted_key">%1$s gelöscht</string>
+    <string name="done_label">Fertig</string>
+    <string name="endByDate">; bis <ns1:g id="date">%s</ns1:g></string>
+    <string name="every_weekday">"Jeden Wochentag (Mo\u2013Fr)"</string>
+    <string name="expiration_picker_seperator">/</string>
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Sonstiges"</string>
     <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Sonstiges"</string>
+    <string name="hint_time_zone_search">Ländernamen eingeben</string>
+    <string name="hms_picker_hours_label">H</string>
+    <string name="hms_picker_minutes_label">M</string>
+    <string name="hms_picker_seconds_label">S</string>
+    <string name="hour_picker_description">Runder Stunden-Slider</string>
+    <string name="hours_label">h</string>
+    <string name="hours_label_description">Stunden</string>
+    <string name="item_is_selected">%1$s ausgewählt</string>
+    <string name="max_error">Bitte eine Zahl kleiner oder gleich %1$s eingeben</string>
+    <string name="max_time_error">Die eingegebene Zeit liegt zu weit in der Zukunft</string>
+    <string name="min_error">Bitte eine Zahl größer oder gleich %1$s eingeben</string>
+    <string name="min_max_error">Bitte eine Zahl zwischen %1$s und %2$s eingeben</string>
+    <string name="min_time_error">Die eingegebene Zeit liegt zu weit in der Vergangenheit</string>
+    <string name="minute_picker_description">Runder Minuten-Slider</string>
+    <string name="minutes_label">m</string>
+    <string name="minutes_label_description">Minuten</string>
+    <string name="month_c">MONAT</string>
+    <string name="monthly">Monatlich</string>
     <string msgid="3698378085901466129" name="mr_button_content_description">"Cast-Symbol"</string>
     <string msgid="5088427771788648085" name="mr_cast_button_connected">"Streaming-Schaltfläche. Verbunden"</string>
     <string msgid="2187642765091873834" name="mr_cast_button_connecting">"Streaming-Schaltfläche. Verbindung wird hergestellt"</string>
@@ -95,15 +324,46 @@
     <string msgid="2361785992211841709" name="mr_controller_volume_slider">"Schieberegler für die Lautstärke"</string>
     <string msgid="5441529851481176817" name="mr_system_route_name">"System"</string>
     <string msgid="7498112907524977311" name="mr_user_route_category_name">"Geräte"</string>
+    <string name="no_results_found">Keine Ergebnisse gefunden</string>
+    <string name="number_delete">Löschen</string>
+    <string name="number_picker_minus_label">—</string>
+    <string name="number_picker_plus_minus">+/-</string>
+    <string name="number_picker_seperator">.</string>
+    <string name="palestine_display_name">Palästina</string>
+    <string name="picker_cancel">Abbrechen</string>
+    <string name="picker_set">OK</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Suche zurücksetzen"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Suche"</string>
+    <string name="recurrence_end_continously">Dauerhaft</string>
+    <string name="recurrence_end_count_label">Mehrere Wiederholungen</string>
+    <string name="recurrence_end_date">Bis zum <ns1:g id="date">%s</ns1:g></string>
+    <string name="recurrence_end_date_label">Bis zu bestimmtem Datum</string>
+    <string name="recurrence_month_pattern_by_day">am gleichen Tag des Monats</string>
     <string msgid="368094699078615544" name="s1">"Bild speichern"</string>
     <string msgid="4550830452390689489" name="s2">"Der Werbeanzeige erlauben, das Bild in der Bildergalerie zu speichern?"</string>
     <string msgid="2435407834265420668" name="s3">"Zustimmen"</string>
     <string msgid="9167523597401839819" name="s4">"Ablehnen"</string>
     <string msgid="1566682516266724847" name="s5">"Kalendertermin erstellen"</string>
     <string msgid="5996672174517137271" name="s6">"Der Werbeanzeige erlauben, einen Kalendertermin zu erstellen?"</string>
+    <string name="save_label">Fertig</string>
     <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string name="searchview_description_clear">Anfrage zurücksetzen</string>
+    <string name="seconds_label">s</string>
+    <string name="seconds_label_description">Sekunden</string>
+    <string name="select_day">Monat und Tag auswählen</string>
+    <string name="select_hours">Stunden auswählen</string>
+    <string name="select_minutes">Minuten auswählen</string>
+    <string name="select_year">Jahr auswählen</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="switch_off">AUS</string>
+    <string name="switch_on">AN</string>
+    <string name="time_picker_00_label">:00</string>
+    <string name="time_picker_30_label">:30</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_time_seperator">:</string>
+    <string name="timer_delete">Löschen</string>
     <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Über Google kaufen"</string>
+    <string name="year_c">JAHR</string>
+    <string name="year_picker_description">Jahresliste</string>
+    <string name="yearly_plain">Jährlich</string>
 </resources>

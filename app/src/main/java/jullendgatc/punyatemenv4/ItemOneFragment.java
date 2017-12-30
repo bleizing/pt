@@ -34,6 +34,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
@@ -61,6 +63,7 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
     Location mLastLocation;
     Marker mCurrLocationMarker;
 
+    private RequestQueue requestQueue;
 
     public static ItemOneFragment newInstance() {
         ItemOneFragment fragment = new ItemOneFragment();
@@ -70,6 +73,9 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Request Queue Volley Network Connection
+        requestQueue = Volley.newRequestQueue(getActivity());
     }
 
     @Override
@@ -128,6 +134,10 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
     @Override
     public void onLocationChanged(Location location) {
+
+    }
+
+    private void getBarangSewa() {
 
     }
 }

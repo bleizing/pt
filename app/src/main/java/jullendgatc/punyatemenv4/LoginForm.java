@@ -162,6 +162,7 @@ public class LoginForm extends Activity {
                                                     Model.setPenyewa(penyewa);
 
                                                     Intent intent = new Intent(LoginForm.this, MainActivity.class);
+                                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                                                     startActivity(intent);
                                                     finish();
                                                 }

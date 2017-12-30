@@ -144,7 +144,9 @@ public class SignupActivity extends Activity {
                                                     Penyewa penyewa = new Penyewa(id, email);
                                                     Model.setPenyewa(penyewa);
 
-                                                    startActivity(new Intent(SignupActivity.this, MainActivity.class));
+                                                    Intent intent = new Intent(SignupActivity.this, MainActivity.class);
+                                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                                    startActivity(intent);
                                                     finish();
                                                 }
                                             } catch (JSONException e) {

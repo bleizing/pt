@@ -24,7 +24,8 @@
             android:layout_gravity="bottom|end"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
-            android:src="@android:drawable/ic_input_add"/>
+            android:src="@android:drawable/ic_input_add"
+            android:visibility="gone"/>
     </FrameLayout>
 
     <android.support.design.widget.BottomNavigationView
