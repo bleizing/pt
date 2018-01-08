@@ -50,9 +50,13 @@
         </activity>
         <activity android:name="jullendgatc.punyatemenv4.LoginForm" />
         <activity android:name="jullendgatc.punyatemenv4.SignupActivity" />
-        <activity android:name="jullendgatc.punyatemenv4.DetailItemInput" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.DetailItemInput"
+            android:theme="@style/FullScreen" />
         <activity android:name="jullendgatc.punyatemenv4.ResetPasswordActivity" />
-        <activity android:name="jullendgatc.punyatemenv4.MainActivity" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.MainActivity"
+            android:theme="@style/FullScreen" />
         <activity android:name="jullendgatc.punyatemenv4.HomeStart" />
 
         <meta-data

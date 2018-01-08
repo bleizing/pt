@@ -1,5 +1,6 @@
 package jullendgatc.punyatemenv4;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -45,6 +46,7 @@ public class DetailItemInput extends AppCompatActivity {
     private static final String FRAG_TAG_DATE_PICKER = "fragment_date_picker_name";
 
     private Penyewa penyewa;
+    private Barang barang;
 
     private RequestQueue requestQueue;
 
@@ -77,6 +79,19 @@ public class DetailItemInput extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                         | View.SYSTEM_UI_FLAG_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+
+        if (getIntent().getExtras() !=  null) {
+            int barangId = Integer.parseInt(getIntent().getExtras().getString("BarangId"));
+
+            if (Model.getBarangArrayList() != null || Model.getBarangArrayList().size() != 0) {
+                for (Barang b : Model.getBarangArrayList()) {
+                    if (b.getId() == barangId) {
+                        barang = b;
+                        break;
+                    }
+                }
+            }
+        }
 
         penyewa = Model.getPenyewa();
 
@@ -171,9 +186,13 @@ public class DetailItemInput extends AppCompatActivity {
                 String tgl_berakhir = tvTglBerakhir.getText().toString().trim();
                 String image = "";
                 String latlng = editLokasi.getText().toString().trim();
-                String arrLatLng[] = latlng.split(",");
-                String lat = arrLatLng[0];
-                String lng = arrLatLng[1];
+                String lat = "-6.175206";
+                String lng = "106.827131";
+                if (!latlng.equals("")) {
+                    String arrLatLng[] = latlng.split(",");
+                    lat = arrLatLng[0];
+                    lng = arrLatLng[1];
+                }
 
                 if (bitmap != null) {
                     image = getStringImage(bitmap);
@@ -202,6 +221,11 @@ public class DetailItemInput extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(image) || image.equals("")) {
                     Toast.makeText(DetailItemInput.this, "Foto Harus Diisi!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if (TextUtils.isEmpty(latlng)) {
+                    Toast.makeText(DetailItemInput.this, "Menunggu Titik Lokasi!", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 sendData(nama, deskripsi, tgl_mulai, tgl_berakhir, image, lat, lng);

@@ -81,7 +81,9 @@ public class ItemThreeFragment extends Fragment {
         editNoId = (EditText) view.findViewById(R.id.edNoId);
         editNoTelp = (EditText) view.findViewById(R.id.edTelp);
 
-        setAttributeEditText(penyewa.getNama(), penyewa.getNo_ktp(), penyewa.getNo_hp());
+        if (penyewa != null) {
+            setAttributeEditText(penyewa.getNama(), penyewa.getNo_ktp(), penyewa.getNo_hp());
+        }
 
         Button btn_simpan = (Button) view.findViewById(R.id.btn_simpan);
         btn_simpan.setOnClickListener(new View.OnClickListener() {

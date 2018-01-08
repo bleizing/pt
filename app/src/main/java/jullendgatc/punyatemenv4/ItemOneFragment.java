@@ -21,6 +21,7 @@
 package jullendgatc.punyatemenv4;
 
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
@@ -34,6 +35,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -65,7 +67,7 @@ import java.util.ArrayList;
 public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
-        LocationListener {
+        LocationListener, GoogleMap.OnMarkerClickListener {
 
     private static final String TAG = "ItemOneFragment";
 
@@ -193,7 +195,7 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
                         Barang barang = new Barang(id, nama, deskripsi, tgl_mulai, tgl_berakhir, foto, lat, lng, user_penyewa_id);
                         barangArrayList.add(barang);
                     }
-
+                    Model.setBarangArrayList(barangArrayList);
                     updateBarangLokasi();
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -228,5 +230,15 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
             mMap.moveCamera(CameraUpdateFactory.newLatLng(lokasiBarang));
         }
+    }
+
+    @Override
+    public boolean onMarkerClick(Marker marker) {
+        Intent intent = new Intent(getActivity(), DetailItemInput.class);
+        intent.putExtra("BarangId", marker.getId());
+        startActivity(intent);
+        Log.d(TAG, "BarangId = " + marker.getId());
+        Toast.makeText(getActivity(), "BarangId = " + marker.getId(), Toast.LENGTH_SHORT).show();
+        return false;
     }
 }

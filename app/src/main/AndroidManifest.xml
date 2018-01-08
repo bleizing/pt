@@ -28,10 +28,12 @@
         </activity>
         <activity android:name=".LoginForm" />
         <activity android:name=".SignupActivity" />
-        <activity android:name=".DetailItemInput" />
+        <activity android:name=".DetailItemInput"
+            android:theme="@style/FullScreen"/>
         <activity android:name=".ResetPasswordActivity" />
         <activity
-            android:name=".MainActivity"/>
+            android:name=".MainActivity"
+            android:theme="@style/FullScreen"/>
         <activity android:name=".HomeStart" />
 
         <meta-data
