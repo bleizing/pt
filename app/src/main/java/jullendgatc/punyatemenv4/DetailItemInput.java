@@ -1,6 +1,5 @@
 package jullendgatc.punyatemenv4;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -42,7 +41,7 @@ import java.util.Calendar;
 import java.util.Locale;
 
 public class DetailItemInput extends AppCompatActivity {
-    private static final String TAG = "FormVerifikasi";
+    private static final String TAG = "DetailItemInput";
     private static final String FRAG_TAG_DATE_PICKER = "fragment_date_picker_name";
 
     private Penyewa penyewa;
@@ -176,7 +175,7 @@ public class DetailItemInput extends AppCompatActivity {
             }
         });
 
-        Button btn_verifikasi = (Button) findViewById(R.id.btn_verifikasi);
+        Button btn_verifikasi = (Button) findViewById(R.id.btn_post);
         btn_verifikasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

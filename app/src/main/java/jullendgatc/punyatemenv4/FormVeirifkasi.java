@@ -72,7 +72,7 @@ public class FormVeirifkasi extends AppCompatActivity {
             }
         });
 
-        Button btn_verifikasi = (Button) findViewById(R.id.btn_verifikasi);
+        Button btn_verifikasi = (Button) findViewById(R.id.btn_post);
         btn_verifikasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

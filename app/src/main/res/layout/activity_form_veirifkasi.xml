@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:gravity="center"
             android:text="Verifikasi Data"
             android:textColor="@color/white"
@@ -28,7 +28,7 @@
             android:layout_below="@id/tv_verifikasi_data"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="15dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:text="*Silahkan Lengkapi Data Diri Anda Untuk Proses Verifikasi"
             android:textColor="@color/white" />
 
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="25dp"
             android:text="Nama"
@@ -49,13 +49,13 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textSize="17sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:layout_marginLeft="20dp"
             android:text="No ID KTP/SIM"
             android:textColor="@color/white"
@@ -66,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textColor="@color/white"
             android:textSize="17sp" />
 
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:text="No Telp"
             android:textColor="@color/white"
             android:textSize="17sp" />
@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textColor="@color/white"
             android:textSize="17sp" />
 
@@ -95,7 +95,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:background="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:padding="10dp"
             android:text="Ambil Gambar ID"
             android:textColor="@color/bg_screen3"
@@ -110,7 +110,7 @@
             android:visibility="gone" />
 
         <Button
-            android:id="@+id/btn_verifikasi"
+            android:id="@+id/btn_post"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -121,7 +121,8 @@
             android:layout_marginBottom="35dp"
             android:text="Verifikasi"
             android:textColor="@color/bg_screen3"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light" />
     </LinearLayout>
 
 </ScrollView>

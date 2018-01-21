@@ -161,7 +161,9 @@ public class ItemThreeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 auth.signOut();
-                startActivity(new Intent(getActivity(), HomeStart.class));
+                Intent intent = new Intent(getActivity(), HomeStart.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                getActivity().startActivity(intent);
                 getActivity().finish();
             }
         });

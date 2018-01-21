@@ -16,7 +16,7 @@
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:fontFamily="sans-serif"/>
+        android:fontFamily="sans-serif-light"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,14 +33,14 @@
             android:layout_height="wrap_content"
             android:text="Nama"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textSize="17sp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edNama"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textSize="17sp" />
 
         <TextView
@@ -48,14 +48,14 @@
             android:layout_height="wrap_content"
             android:text="No ID KTP/SIM"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textSize="17sp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edNoId"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textSize="17sp"/>
 
         <TextView
@@ -63,14 +63,14 @@
             android:layout_height="wrap_content"
             android:text="No Telp"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textSize="17sp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/edTelp"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:textSize="17sp"/>
 
         <Button
@@ -84,7 +84,8 @@
             android:background="@color/white"
             android:text="Simpan"
             android:textColor="@color/bg_screen3"
-            android:textSize="18dp" />
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light" />
     </LinearLayout>
 
     <TextView
@@ -96,6 +97,7 @@
         android:layout_marginBottom="24dp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:text="Log Out PunyaTemen?" />
+        android:text="Log Out PunyaTemen?"
+        android:fontFamily="sans-serif-light" />
 
 </RelativeLayout>

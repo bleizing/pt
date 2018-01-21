@@ -1592,11 +1592,11 @@ int id btn_ambil_gambar 0x7f09003c
 int id btn_back 0x7f09003d
 int id btn_login 0x7f09003e
 int id btn_next 0x7f09003f
-int id btn_reset_password 0x7f090040
-int id btn_signup 0x7f090041
-int id btn_simpan 0x7f090042
-int id btn_skip 0x7f090043
-int id btn_verifikasi 0x7f090044
+int id btn_post 0x7f090040
+int id btn_reset_password 0x7f090041
+int id btn_signup 0x7f090042
+int id btn_simpan 0x7f090043
+int id btn_skip 0x7f090044
 int id button 0x7f090045
 int id buttonPanel 0x7f090046
 int id button_0 0x7f090047

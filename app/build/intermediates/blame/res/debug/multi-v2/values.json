@@ -332,12 +332,12 @@
                 {
                     "source": "D:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "3,17,10",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "54,723,374",
-                        "endLines": "8,22,15",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "368,1012,717"
+                        "startLines": "3,17,-1",
+                        "startColumns": "4,4,-1",
+                        "startOffsets": "54,723,-1",
+                        "endLines": "8,22,-1",
+                        "endColumns": "12,12,-1",
+                        "endOffsets": "368,1012,-1"
                     },
                     "to": {
                         "startLines": "1686,2873,3222",

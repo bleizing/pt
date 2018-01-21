@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class Model {
     private static Penyewa penyewa;
     private static ArrayList<Barang> barangArrayList;
+    private static ArrayList<PermintaanBarang> permintaanBarangArrayList;
 
     public static void setPenyewa(Penyewa penyewa) {
         Model.penyewa = penyewa;
@@ -24,5 +25,13 @@ public class Model {
 
     public static ArrayList<Barang> getBarangArrayList() {
         return barangArrayList;
+    }
+
+    public static void setPermintaanBarangArrayList(ArrayList<PermintaanBarang> permintaanBarangArrayList) {
+        Model.permintaanBarangArrayList = permintaanBarangArrayList;
+    }
+
+    public static ArrayList<PermintaanBarang> getPermintaanBarangArrayList() {
+        return permintaanBarangArrayList;
     }
 }

@@ -83,6 +83,7 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
     private Penyewa penyewa;
 
     private ArrayList<Barang> barangArrayList;
+    private ArrayList<PermintaanBarang> permintaanBarangArrayList;
 
     public static ItemOneFragment newInstance() {
         ItemOneFragment fragment = new ItemOneFragment();
@@ -98,6 +99,7 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         // Request Queue Volley Network Connection
         requestQueue = Volley.newRequestQueue(getActivity());
         barangArrayList = new ArrayList<>();
+        permintaanBarangArrayList = new ArrayList<>();
     }
 
     @Override
@@ -117,7 +119,24 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
     public void onResume() {
         super.onResume();
         if (mMap != null) {
+            mMap.clear();
+            if (barangArrayList != null) {
+                if (barangArrayList.size() != 0) {
+                    barangArrayList.clear();
+                }
+            } else {
+                barangArrayList = new ArrayList<>();
+            }
+
+            if (permintaanBarangArrayList != null) {
+                if (permintaanBarangArrayList.size() != 0) {
+                    permintaanBarangArrayList.clear();
+                }
+            } else {
+                permintaanBarangArrayList = new ArrayList<>();
+            }
             getBarangSewa();
+            getPermintaanBarang();
         }
     }
 
@@ -127,8 +146,9 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         googleMap.getUiSettings().setMyLocationButtonEnabled(true);
 
         getBarangSewa();
+        getPermintaanBarang();
 
-        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.marker);
+//        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.marker);
 
 //        // Add a marker in Sydney, Australia, and move the camera.
 //        LatLng b1 = new LatLng(-6.179158, 106.876802);
@@ -212,6 +232,46 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         requestQueue.add(jsonObjectRequest);
     }
 
+    private void getPermintaanBarang() {
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, NetAPI.GET_PERMINTAAN_BARANG, null, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                Log.d(TAG, "getPermintaanBarang response : " + response);
+
+                try {
+                    JSONArray data = response.getJSONArray("data");
+
+                    for (int i = 0; i < data.length(); i++) {
+                        JSONObject jsonObject = data.getJSONObject(i);
+                        int id = Integer.parseInt(jsonObject.getString("id"));
+                        String nama = jsonObject.getString("nama");
+                        String deskripsi = jsonObject.getString("deskripsi");
+                        String tgl_mulai = jsonObject.getString("tanggal_mulai");
+                        String tgl_berakhir = jsonObject.getString("tanggal_berakhir");
+                        String lat = jsonObject.getString("lat");
+                        String lng = jsonObject.getString("lng");
+                        int calon_penyewa_id = Integer.parseInt(jsonObject.getString("calon_penyewa_id"));
+
+                        PermintaanBarang permintaanBarang = new PermintaanBarang(id, nama, deskripsi, tgl_mulai, tgl_berakhir, lat, lng, calon_penyewa_id);
+                        permintaanBarangArrayList.add(permintaanBarang);
+                    }
+                    Model.setPermintaanBarangArrayList(permintaanBarangArrayList);
+                    updatePermintaanBarangLokasi();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, "error getPermintaanBarang : " + error);
+            }
+        });
+        jsonObjectRequest.setTag(TAG);
+        requestQueue.add(jsonObjectRequest);
+    }
+
     private void updateBarangLokasi() {
         BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.marker);
         if (barangArrayList.size() != 0) {
@@ -219,6 +279,26 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
                 for (Barang barang : barangArrayList) {
                     LatLng lokasiBarang = new LatLng(Double.parseDouble(barang.getLat()), Double.parseDouble(barang.getLng()));
                     mMap.addMarker(new MarkerOptions().position(lokasiBarang).title(barang.getNama()).icon(icon));
+
+                    mMap.moveCamera(CameraUpdateFactory.newLatLng(lokasiBarang));
+                }
+            }
+        } else {
+            // LatLng Monumen Nasional as Default
+            LatLng lokasiBarang = new LatLng(-6.175206, 106.827131);
+//            mMap.addMarker(new MarkerOptions().position(lokasiBarang).title("Jual Baju Second").icon(icon));
+
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(lokasiBarang));
+        }
+    }
+
+    private void updatePermintaanBarangLokasi() {
+        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.marker);
+        if (permintaanBarangArrayList.size() != 0) {
+            if (mMap != null) {
+                for (PermintaanBarang permintaanBarang : permintaanBarangArrayList) {
+                    LatLng lokasiBarang = new LatLng(Double.parseDouble(permintaanBarang.getLat()), Double.parseDouble(permintaanBarang.getLng()));
+                    mMap.addMarker(new MarkerOptions().position(lokasiBarang).title(permintaanBarang.getNama()).icon(icon));
 
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(lokasiBarang));
                 }

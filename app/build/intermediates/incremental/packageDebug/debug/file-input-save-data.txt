@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Dec 30 20:29:38 ICT 2017
+#Mon Jan 22 01:45:43 ICT 2018
 7.path=classes.dex
 2.base=D\:\\Dimas\\KALBIS\\Kerja\\Freelance\\Pak Jullend\\PunyaTemenv4\\PunyaTemenv4\\app\\build\\intermediates\\assets\\debug
 5.set=ASSET

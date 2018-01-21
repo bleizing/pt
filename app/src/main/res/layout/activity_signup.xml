@@ -36,7 +36,8 @@ tools:context="jullendgatc.punyatemenv4.SignupActivity">
             android:inputType="textEmailAddress"
             android:maxLines="1"
             android:singleLine="true"
-            android:textColor="@color/white_trans" />
+            android:textColor="@color/white_trans"
+            android:fontFamily="sans-serif-light" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -54,7 +55,8 @@ tools:context="jullendgatc.punyatemenv4.SignupActivity">
             android:inputType="textPassword"
             android:maxLines="1"
             android:singleLine="true"
-            android:textColor="@color/white_trans" />
+            android:textColor="@color/white_trans"
+            android:fontFamily="sans-serif-light" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -67,7 +69,8 @@ tools:context="jullendgatc.punyatemenv4.SignupActivity">
         android:background="@color/white"
         android:text="@string/action_sign_in_short"
         android:textColor="@color/bg_screen3"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light" />
 
     <Button
         android:id="@+id/btn_reset_password"
@@ -77,7 +80,8 @@ tools:context="jullendgatc.punyatemenv4.SignupActivity">
         android:background="@null"
         android:text="@string/btn_forgot_password"
         android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light" />
 
     <!-- Link to Login Screen -->
 
@@ -90,7 +94,8 @@ tools:context="jullendgatc.punyatemenv4.SignupActivity">
         android:text="@string/btn_link_to_login"
         android:textAllCaps="false"
         android:textColor="#ffff"
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light" />
 </LinearLayout>
 
 <ProgressBar

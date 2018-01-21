@@ -5286,11 +5286,11 @@ public final class R {
     public static final int btn_back=0x7f09003d;
     public static final int btn_login=0x7f09003e;
     public static final int btn_next=0x7f09003f;
-    public static final int btn_reset_password=0x7f090040;
-    public static final int btn_signup=0x7f090041;
-    public static final int btn_simpan=0x7f090042;
-    public static final int btn_skip=0x7f090043;
-    public static final int btn_verifikasi=0x7f090044;
+    public static final int btn_post=0x7f090040;
+    public static final int btn_reset_password=0x7f090041;
+    public static final int btn_signup=0x7f090042;
+    public static final int btn_simpan=0x7f090043;
+    public static final int btn_skip=0x7f090044;
     public static final int button=0x7f090045;
     public static final int buttonPanel=0x7f090046;
     public static final int button_0=0x7f090047;
