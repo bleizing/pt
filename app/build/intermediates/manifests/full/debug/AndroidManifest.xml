@@ -65,6 +65,7 @@
 
         <activity android:name="jullendgatc.punyatemenv4.Welcome" />
         <activity android:name="jullendgatc.punyatemenv4.FormVeirifkasi" />
+        <activity android:name="jullendgatc.punyatemenv4.DetailPermintaanBarangActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

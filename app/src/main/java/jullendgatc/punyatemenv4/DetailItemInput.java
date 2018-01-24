@@ -21,6 +21,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -59,6 +60,10 @@ public class DetailItemInput extends AppCompatActivity {
     private ImageView img_foto_barang;
     private String tgl_mulai, tgl_berakhir;
 
+    private String type;
+
+    private LinearLayout linearAdd, linearModif, linearLokasi, linearFoto;
+
     private double lat,lng;
 
     private LocationManager locationManager;
@@ -80,7 +85,7 @@ public class DetailItemInput extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
 
         if (getIntent().getExtras() !=  null) {
-            int barangId = Integer.parseInt(getIntent().getExtras().getString("BarangId"));
+            int barangId = getIntent().getExtras().getInt("barang_id");
 
             if (Model.getBarangArrayList() != null || Model.getBarangArrayList().size() != 0) {
                 for (Barang b : Model.getBarangArrayList()) {
@@ -91,6 +96,8 @@ public class DetailItemInput extends AppCompatActivity {
                 }
             }
         }
+
+        type = "";
 
         penyewa = Model.getPenyewa();
 
@@ -114,8 +121,39 @@ public class DetailItemInput extends AppCompatActivity {
         editLokasi = (EditText) findViewById(R.id.editLokasi);
         img_foto_barang = (ImageView) findViewById(R.id.img_foto_barang);
 
+        linearLokasi = (LinearLayout) findViewById(R.id.linear_lokasi);
+        linearAdd = (LinearLayout) findViewById(R.id.linear_add);
+        linearModif = (LinearLayout) findViewById(R.id.linear_modif);
+        linearFoto = (LinearLayout) findViewById(R.id.linear_foto);
+
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         getCurrentLocation();
+
+        if (barang != null) {
+            linearLokasi.setVisibility(View.GONE);
+            linearAdd.setVisibility(View.GONE);
+            linearModif.setVisibility(View.VISIBLE);
+            linearFoto.setVisibility(View.GONE);
+            editNama.setText(barang.getNama());
+
+            String tglMulai = barang.getTgl_mulai();
+            String tglMulaiArr[] = tglMulai.split("-");
+            tglMulai = tglMulaiArr[0];
+
+            String tglBerakhir = barang.getTgl_berakhir();
+            String tglBerakhirArr[] = tglBerakhir.split("-");
+            tglBerakhir = tglBerakhirArr[0];
+
+            editDeskripsi.setText(barang.getDeskripsi());
+            tvTglMulai.setText(tglMulai);
+            tvTglBerakhir.setText(tglBerakhir);
+        } else {
+            linearLokasi.setVisibility(View.VISIBLE);
+            linearAdd.setVisibility(View.VISIBLE);
+            linearModif.setVisibility(View.GONE);
+            linearFoto.setVisibility(View.VISIBLE);
+            type = "insertBarang";
+        }
 
         Button btn_ambil_gambar = (Button) findViewById(R.id.btn_ambil_gambar);
         btn_ambil_gambar.setOnClickListener(new View.OnClickListener() {
@@ -179,55 +217,33 @@ public class DetailItemInput extends AppCompatActivity {
         btn_verifikasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String nama = editNama.getText().toString().trim();
-                String deskripsi = editDeskripsi.getText().toString().trim();
-                String tgl_mulai = tvTglMulai.getText().toString().trim();
-                String tgl_berakhir = tvTglBerakhir.getText().toString().trim();
-                String image = "";
-                String latlng = editLokasi.getText().toString().trim();
-                String lat = "-6.175206";
-                String lng = "106.827131";
-                if (!latlng.equals("")) {
-                    String arrLatLng[] = latlng.split(",");
-                    lat = arrLatLng[0];
-                    lng = arrLatLng[1];
-                }
+                btnClickHandle();
+            }
+        });
 
-                if (bitmap != null) {
-                    image = getStringImage(bitmap);
-                }
+        Button btn_edit = (Button) findViewById(R.id.btn_edit);
+        btn_edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                type = "editBarang";
+                btnClickHandle();
+            }
+        });
 
+        Button btn_delete = (Button) findViewById(R.id.btn_delete);
+        btn_delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                type = "deleteBarang";
+                btnClickHandle();
+            }
+        });
 
-                if (TextUtils.isEmpty(nama)) {
-                    Toast.makeText(DetailItemInput.this, "Nama Barang Harus Diisi!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                if (TextUtils.isEmpty(deskripsi)) {
-                    Toast.makeText(DetailItemInput.this, "Deskripsi Harus Diisi!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                if (TextUtils.isEmpty(tgl_mulai)) {
-                    Toast.makeText(DetailItemInput.this, "Tanggal Mulai Harus Diisi!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                if (TextUtils.isEmpty(tgl_berakhir)) {
-                    Toast.makeText(DetailItemInput.this, "Tangga Berakhir Harus Diisi!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                if (TextUtils.isEmpty(image) || image.equals("")) {
-                    Toast.makeText(DetailItemInput.this, "Foto Harus Diisi!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                if (TextUtils.isEmpty(latlng)) {
-                    Toast.makeText(DetailItemInput.this, "Menunggu Titik Lokasi!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                sendData(nama, deskripsi, tgl_mulai, tgl_berakhir, image, lat, lng);
+        Button btn_close = (Button) findViewById(R.id.btn_close);
+        btn_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
     }
@@ -258,19 +274,87 @@ public class DetailItemInput extends AppCompatActivity {
         }
     }
 
+    private void btnClickHandle() {
+        String nama = editNama.getText().toString().trim();
+        String deskripsi = editDeskripsi.getText().toString().trim();
+        String tgl_mulai = tvTglMulai.getText().toString().trim();
+        String tgl_berakhir = tvTglBerakhir.getText().toString().trim();
+        String image = "";
+        String latlng = "";
+        String lat = "-6.175206";
+        String lng = "106.827131";
+        if (barang == null) {
+            latlng = editLokasi.getText().toString().trim();
+
+            if (!latlng.equals("")) {
+                String arrLatLng[] = latlng.split(",");
+                lat = arrLatLng[0];
+                lng = arrLatLng[1];
+            }
+        } else {
+            lat = "";
+            lng = "";
+        }
+
+        if (barang == null) {
+            if (bitmap != null) {
+                image = getStringImage(bitmap);
+            }
+        }
+
+        if (TextUtils.isEmpty(nama)) {
+            Toast.makeText(DetailItemInput.this, "Nama Barang Harus Diisi!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (TextUtils.isEmpty(deskripsi)) {
+            Toast.makeText(DetailItemInput.this, "Deskripsi Harus Diisi!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (TextUtils.isEmpty(tgl_mulai)) {
+            Toast.makeText(DetailItemInput.this, "Tanggal Mulai Harus Diisi!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (TextUtils.isEmpty(tgl_berakhir)) {
+            Toast.makeText(DetailItemInput.this, "Tangga Berakhir Harus Diisi!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (barang == null) {
+            if (TextUtils.isEmpty(image) || image.equals("")) {
+                Toast.makeText(DetailItemInput.this, "Foto Harus Diisi!", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+
+            if (TextUtils.isEmpty(latlng)) {
+                Toast.makeText(DetailItemInput.this, "Menunggu Titik Lokasi!", Toast.LENGTH_SHORT).show();
+                return;
+            }
+        }
+        sendData(nama, deskripsi, tgl_mulai, tgl_berakhir, image, lat, lng);
+    }
+
     private void sendData(String nama, String deskripsi, String tgl_mulai, String tgl_berakhir, String image, String lat, String lng) {
         // Create a JSON Object
         JSONObject jsonObject = new JSONObject();
         try {
-            jsonObject.put("type", "insertBarang");
-            jsonObject.put("nama", nama);
-            jsonObject.put("deskripsi", deskripsi);
-            jsonObject.put("tanggal_mulai", tgl_mulai);
-            jsonObject.put("tanggal_berakhir", tgl_berakhir);
-            jsonObject.put("lat", lat);
-            jsonObject.put("lng", lng);
-            jsonObject.put("user_penyewa_id", penyewa.getId());
-            jsonObject.put("foto", image);
+            jsonObject.put("type", type);
+            if (!type.equals("deleteBarang")) {
+                jsonObject.put("nama", nama);
+                jsonObject.put("deskripsi", deskripsi);
+                jsonObject.put("tanggal_mulai", tgl_mulai);
+                jsonObject.put("tanggal_berakhir", tgl_berakhir);
+                jsonObject.put("lat", lat);
+                jsonObject.put("lng", lng);
+                jsonObject.put("user_penyewa_id", penyewa.getId());
+                jsonObject.put("foto", image);
+            }
+            if (barang != null) {
+                jsonObject.put("barang_sewa_id", barang.getId());
+            }
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -283,9 +367,10 @@ public class DetailItemInput extends AppCompatActivity {
 
                 try {
                     String type = response.getString("type");
+                    String message = response.getString("message");
 
                     if (type.equals("success")) {
-                        Toast.makeText(DetailItemInput.this, "Tambah Barang Sewa Berhasil", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DetailItemInput.this, message, Toast.LENGTH_SHORT).show();
                         finish();
                     }
                 } catch (JSONException e) {

@@ -14,9 +14,9 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private Penyewa penyewa;
-    private boolean is_fab_show;
+//    private boolean is_fab_show;
 
-    private FloatingActionButton fab;
+//    private FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        is_fab_show = false;
+//        is_fab_show = false;
 
         penyewa = Model.getPenyewa();
 
@@ -46,18 +46,18 @@ public class MainActivity extends AppCompatActivity {
                         switch (item.getItemId()) {
                             case R.id.action_item1:
                                 selectedFragment = ItemOneFragment.newInstance();
-                                is_fab_show = true;
-                                checkFabIsShow();
+//                                is_fab_show = true;
+//                                checkFabIsShow();
                                 break;
                             case R.id.action_item2:
                                 selectedFragment = ItemTwoFragment.newInstance();
-                                is_fab_show = false;
-                                checkFabIsShow();
+//                                is_fab_show = false;
+//                                checkFabIsShow();
                                 break;
                             case R.id.action_item3:
                                 selectedFragment = ItemThreeFragment.newInstance();
-                                is_fab_show = false;
-                                checkFabIsShow();
+//                                is_fab_show = false;
+//                                checkFabIsShow();
                                 break;
                         }
 
@@ -73,31 +73,31 @@ public class MainActivity extends AppCompatActivity {
         transaction.replace(R.id.frame_layout, ItemOneFragment.newInstance());
         transaction.commit();
 
-        fab = (FloatingActionButton) findViewById(R.id.fab);
-
-        is_fab_show = true;
-        checkFabIsShow();
+//        fab = (FloatingActionButton) findViewById(R.id.fab);
+//
+//        is_fab_show = true;
+//        checkFabIsShow();
     }
 
-    private void checkFabIsShow() {
-        if (is_fab_show) {
-            fab.setVisibility(View.VISIBLE);
-            fab.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (penyewa != null) {
-                        if (penyewa.getStatus() == 0) {
-                            Intent abc = new Intent(MainActivity.this, FormVeirifkasi.class);
-                            startActivity(abc);
-                        } else {
-                            Intent abc = new Intent(MainActivity.this, DetailItemInput.class);
-                            startActivity(abc);
-                        }
-                    }
-                }
-            });
-        } else {
-            fab.setVisibility(View.GONE);
-        }
-    }
+//    private void checkFabIsShow() {
+//        if (is_fab_show) {
+//            fab.setVisibility(View.VISIBLE);
+//            fab.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    if (penyewa != null) {
+//                        if (penyewa.getStatus() == 0) {
+//                            Intent abc = new Intent(MainActivity.this, FormVeirifkasi.class);
+//                            startActivity(abc);
+//                        } else {
+//                            Intent abc = new Intent(MainActivity.this, DetailItemInput.class);
+//                            startActivity(abc);
+//                        }
+//                    }
+//                }
+//            });
+//        } else {
+//            fab.setVisibility(View.GONE);
+//        }
+//    }
 }

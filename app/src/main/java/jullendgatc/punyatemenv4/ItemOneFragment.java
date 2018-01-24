@@ -27,6 +27,7 @@ import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -67,7 +68,7 @@ import java.util.ArrayList;
 public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
-        LocationListener, GoogleMap.OnMarkerClickListener {
+        LocationListener {
 
     private static final String TAG = "ItemOneFragment";
 
@@ -80,7 +81,12 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
     private RequestQueue requestQueue;
 
+    private FloatingActionButton fab;
+
     private Penyewa penyewa;
+
+    private PermintaanBarang permintaanBarang;
+    private Barang barang;
 
     private ArrayList<Barang> barangArrayList;
     private ArrayList<PermintaanBarang> permintaanBarangArrayList;
@@ -112,12 +118,23 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         transaction.commit();
         fragment.getMapAsync(this);
 
+        fab = (FloatingActionButton) view.findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                fbClicked();
+            }
+        });
+
         return view;
     }
 
     @Override
     public void onResume() {
         super.onResume();
+        permintaanBarang = null;
+        barang = null;
+        fab.setImageResource(android.R.drawable.ic_input_add);
         if (mMap != null) {
             mMap.clear();
             if (barangArrayList != null) {
@@ -189,6 +206,23 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
     @Override
     public void onLocationChanged(Location location) {
 
+    }
+
+    private void fbClicked() {
+        Intent intent;
+
+        if (barang != null) {
+            intent = new Intent(getActivity(), DetailItemInput.class);
+            intent.putExtra("barang_id", barang.getId());
+        } else {
+            intent = new Intent(getActivity(), DetailItemInput.class);
+        }
+
+        if (permintaanBarang != null) {
+            intent = new Intent(getActivity(), DetailPermintaanBarangActivity.class);
+            intent.putExtra("permintaan_barang_id", permintaanBarang.getId());
+        }
+        startActivity(intent);
     }
 
     private void getBarangSewa() {
@@ -290,6 +324,24 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
             mMap.moveCamera(CameraUpdateFactory.newLatLng(lokasiBarang));
         }
+
+        mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(LatLng latLng) {
+                fab.setImageResource(android.R.drawable.ic_input_add);
+                permintaanBarang = null;
+                barang = null;
+            }
+        });
+
+        mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+            @Override
+            public boolean onMarkerClick(Marker marker) {
+                checkTitle(marker.getTitle());
+
+                return false;
+            }
+        });
     }
 
     private void updatePermintaanBarangLokasi() {
@@ -310,15 +362,55 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
             mMap.moveCamera(CameraUpdateFactory.newLatLng(lokasiBarang));
         }
+
+        mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+            @Override
+            public void onMapClick(LatLng latLng) {
+                fab.setImageResource(android.R.drawable.ic_input_add);
+                permintaanBarang = null;
+                barang = null;
+            }
+        });
+
+        mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+            @Override
+            public boolean onMarkerClick(Marker marker) {
+                checkTitle(marker.getTitle());
+
+                return false;
+            }
+        });
     }
 
-    @Override
-    public boolean onMarkerClick(Marker marker) {
-        Intent intent = new Intent(getActivity(), DetailItemInput.class);
-        intent.putExtra("BarangId", marker.getId());
-        startActivity(intent);
-        Log.d(TAG, "BarangId = " + marker.getId());
-        Toast.makeText(getActivity(), "BarangId = " + marker.getId(), Toast.LENGTH_SHORT).show();
-        return false;
+    private void checkTitle(String title) {
+        for (PermintaanBarang pb : permintaanBarangArrayList) {
+            if (title.equals(pb.getNama())) {
+//                        title = permintaanBarang.getNama();
+
+                permintaanBarang = pb;
+                break;
+            } else {
+                permintaanBarang = null;
+            }
+        }
+
+        for (Barang bs : barangArrayList) {
+            if (title.equals(bs.getNama())) {
+//                        title = permintaanBarang.getNama();
+
+                barang = bs;
+                break;
+            } else {
+                barang = null;
+            }
+        }
+
+        if (barang != null) {
+            fab.setImageResource(R.drawable.ic_action_edit);
+        } else {
+            if (permintaanBarang != null) {
+                fab.setImageResource(R.drawable.ic_action_view);
+            }
+        }
     }
 }
