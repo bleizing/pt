@@ -55,7 +55,7 @@ public class DetailItemInput extends AppCompatActivity {
     private int year_x, month_x, day_x;   // untuk tgl mulai
     private int year_y, month_y, day_y;   // untuk tgl berakhir
 
-    private EditText editNama, editDeskripsi, editLokasi;
+    private EditText editNama, editDeskripsi, editLokasi, editHarga;
     private TextView tvTglMulai, tvTglBerakhir;
     private ImageView img_foto_barang;
     private String tgl_mulai, tgl_berakhir;
@@ -114,8 +114,9 @@ public class DetailItemInput extends AppCompatActivity {
         // Request Queue Volley Network Connection
         requestQueue = Volley.newRequestQueue(this);
 
-        editNama = (EditText) findViewById(R.id.edNama);
+        editNama = (EditText) findViewById(R.id.edNamaBarang);
         editDeskripsi = (EditText) findViewById(R.id.edDeskripsi);
+        editHarga = (EditText) findViewById(R.id.edHarga);
         tvTglMulai = (TextView) findViewById(R.id.tvTglMulai);
         tvTglBerakhir = (TextView) findViewById(R.id.tvTglBerakhir);
         editLokasi = (EditText) findViewById(R.id.editLokasi);
@@ -145,6 +146,7 @@ public class DetailItemInput extends AppCompatActivity {
             tglBerakhir = tglBerakhirArr[0];
 
             editDeskripsi.setText(barang.getDeskripsi());
+            editHarga.setText(barang.getHarga().toString());
             tvTglMulai.setText(tglMulai);
             tvTglBerakhir.setText(tglBerakhir);
         } else {
@@ -239,8 +241,16 @@ public class DetailItemInput extends AppCompatActivity {
             }
         });
 
-        Button btn_close = (Button) findViewById(R.id.btn_close);
-        btn_close.setOnClickListener(new View.OnClickListener() {
+//        Button btn_close = (Button) findViewById(R.id.btn_close);
+//        btn_close.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                finish();
+//            }
+//        });
+
+        TextView tv_close = (TextView) findViewById(R.id.tv_close);
+        tv_close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
@@ -277,6 +287,7 @@ public class DetailItemInput extends AppCompatActivity {
     private void btnClickHandle() {
         String nama = editNama.getText().toString().trim();
         String deskripsi = editDeskripsi.getText().toString().trim();
+        String harga = editHarga.getText().toString().trim();
         String tgl_mulai = tvTglMulai.getText().toString().trim();
         String tgl_berakhir = tvTglBerakhir.getText().toString().trim();
         String image = "";
@@ -312,6 +323,11 @@ public class DetailItemInput extends AppCompatActivity {
             return;
         }
 
+        if (TextUtils.isEmpty(harga)) {
+            Toast.makeText(DetailItemInput.this, "Harga Harus Diisi!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         if (TextUtils.isEmpty(tgl_mulai)) {
             Toast.makeText(DetailItemInput.this, "Tanggal Mulai Harus Diisi!", Toast.LENGTH_SHORT).show();
             return;
@@ -334,10 +350,10 @@ public class DetailItemInput extends AppCompatActivity {
                 return;
             }
         }
-        sendData(nama, deskripsi, tgl_mulai, tgl_berakhir, image, lat, lng);
+        sendData(nama, deskripsi, harga, tgl_mulai, tgl_berakhir, image, lat, lng);
     }
 
-    private void sendData(String nama, String deskripsi, String tgl_mulai, String tgl_berakhir, String image, String lat, String lng) {
+    private void sendData(String nama, String deskripsi, String harga, String tgl_mulai, String tgl_berakhir, String image, String lat, String lng) {
         // Create a JSON Object
         JSONObject jsonObject = new JSONObject();
         try {
@@ -345,6 +361,7 @@ public class DetailItemInput extends AppCompatActivity {
             if (!type.equals("deleteBarang")) {
                 jsonObject.put("nama", nama);
                 jsonObject.put("deskripsi", deskripsi);
+                jsonObject.put("harga", harga);
                 jsonObject.put("tanggal_mulai", tgl_mulai);
                 jsonObject.put("tanggal_berakhir", tgl_berakhir);
                 jsonObject.put("lat", lat);

@@ -48,24 +48,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="jullendgatc.punyatemenv4.LoginForm" />
-        <activity android:name="jullendgatc.punyatemenv4.SignupActivity" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.LoginForm"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.SignupActivity"
+            android:theme="@style/FullScreen" />
         <activity
             android:name="jullendgatc.punyatemenv4.DetailItemInput"
             android:theme="@style/FullScreen" />
-        <activity android:name="jullendgatc.punyatemenv4.ResetPasswordActivity" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.ResetPasswordActivity"
+            android:theme="@style/FullScreen" />
         <activity
             android:name="jullendgatc.punyatemenv4.MainActivity"
             android:theme="@style/FullScreen" />
-        <activity android:name="jullendgatc.punyatemenv4.HomeStart" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.HomeStart"
+            android:theme="@style/FullScreen" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAtLkDODapTKXloNR2fcAtpKcTN2FOYdoA" />
 
-        <activity android:name="jullendgatc.punyatemenv4.Welcome" />
-        <activity android:name="jullendgatc.punyatemenv4.FormVeirifkasi" />
-        <activity android:name="jullendgatc.punyatemenv4.DetailPermintaanBarangActivity" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.Welcome"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.FormVeirifkasi"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="jullendgatc.punyatemenv4.DetailPermintaanBarangActivity"
+            android:theme="@style/FullScreen" />
 
         <meta-data
             android:name="android.support.VERSION"

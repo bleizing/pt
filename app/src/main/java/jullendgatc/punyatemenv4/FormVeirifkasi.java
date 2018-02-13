@@ -59,7 +59,7 @@ public class FormVeirifkasi extends AppCompatActivity {
         // Request Queue Volley Network Connection
         requestQueue = Volley.newRequestQueue(this);
 
-        editNama = (EditText) findViewById(R.id.edNama);
+        editNama = (EditText) findViewById(R.id.edNamaBarang);
         editNoId = (EditText) findViewById(R.id.edNoId);
         editNoTelp = (EditText) findViewById(R.id.edTelp);
         img_foto_id = (ImageView) findViewById(R.id.img_foto_id);

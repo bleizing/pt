@@ -26,24 +26,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginForm" />
-        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginForm"
+            android:theme="@style/FullScreen" />
+        <activity android:name=".SignupActivity"
+            android:theme="@style/FullScreen" />
         <activity
             android:name=".DetailItemInput"
             android:theme="@style/FullScreen" />
-        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".ResetPasswordActivity"
+            android:theme="@style/FullScreen" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/FullScreen" />
-        <activity android:name=".HomeStart" />
+        <activity android:name=".HomeStart"
+            android:theme="@style/FullScreen" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAtLkDODapTKXloNR2fcAtpKcTN2FOYdoA" />
 
-        <activity android:name=".Welcome" />
-        <activity android:name=".FormVeirifkasi" />
-        <activity android:name=".DetailPermintaanBarangActivity"></activity>
+        <activity android:name=".Welcome"
+            android:theme="@style/FullScreen" />
+        <activity android:name=".FormVeirifkasi"
+            android:theme="@style/FullScreen" />
+        <activity android:name=".DetailPermintaanBarangActivity"
+            android:theme="@style/FullScreen" />
     </application>
 
 </manifest>

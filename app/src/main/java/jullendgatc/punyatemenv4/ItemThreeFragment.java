@@ -23,7 +23,9 @@ package jullendgatc.punyatemenv4;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -77,7 +79,7 @@ public class ItemThreeFragment extends Fragment {
         penyewa = Model.getPenyewa();
 
         logout = (TextView) view.findViewById(R.id.tvLogout);
-        editNama = (EditText) view.findViewById(R.id.edNama);
+        editNama = (EditText) view.findViewById(R.id.edNamaBarang);
         editNoId = (EditText) view.findViewById(R.id.edNoId);
         editNoTelp = (EditText) view.findViewById(R.id.edTelp);
 

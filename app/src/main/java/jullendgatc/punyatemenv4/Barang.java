@@ -8,6 +8,7 @@ public class Barang {
     private int id;
     private String nama = "";
     private String deskripsi = "";
+    private String harga = "";
     private String tgl_mulai = "";
     private String tgl_berakhir = "";
     private String foto_barang = "";
@@ -19,10 +20,11 @@ public class Barang {
 
     }
 
-    public Barang(int id, String nama, String deskripsi, String tgl_mulai, String tgl_berakhir, String foto_barang, String lat, String lng, int user_penyewa_id) {
+    public Barang(int id, String nama, String deskripsi, String harga, String tgl_mulai, String tgl_berakhir, String foto_barang, String lat, String lng, int user_penyewa_id) {
         this.id = id;
         this.nama = nama;
         this.deskripsi = deskripsi;
+        this.harga = harga;
         this.tgl_mulai = tgl_mulai;
         this.tgl_berakhir = tgl_berakhir;
         this.foto_barang = foto_barang;
@@ -53,6 +55,14 @@ public class Barang {
 
     public String getDeskripsi() {
         return deskripsi;
+    }
+
+    public void setHarga(String harga) {
+        this.harga = harga;
+    }
+
+    public String getHarga() {
+        return harga;
     }
 
     public void setFoto_barang(String foto_barang) {

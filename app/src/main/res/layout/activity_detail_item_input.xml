@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_screen3"
-    tools:context="jullendgatc.punyatemenv4.ItemThreeFragment">
+    android:clipToPadding="false"
+    android:fillViewport="false"
+    tools:context="jullendgatc.punyatemenv4.DetailItemInput">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,18 +29,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
             android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-light"
             android:text="Nama Barang"
             android:textColor="@color/white"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/edNama"
+            android:id="@+id/edNamaBarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
             android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
             android:textSize="17sp" />
 
         <TextView
@@ -47,7 +50,8 @@
             android:fontFamily="sans-serif-light"
             android:text="Deskripsi"
             android:textColor="@color/white"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/edDeskripsi"
@@ -61,9 +65,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Tanggal Mulai"
+            android:text="Harga (Rp)"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:hint="100000"
+            android:inputType="number"
             android:textColor="@color/white"
             android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Tanggal Mulai"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvTglMulai"
@@ -71,24 +95,24 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-light"
+            android:text="01 Januari 1970"
             android:textColor="@color/white"
-            android:textSize="17sp"
-            android:text="01 Januari 1970"/>
+            android:textSize="17sp" />
 
         <!--<TextView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginLeft="20dp"-->
-            <!--android:layout_marginTop="-15dp"-->
-            <!--android:text="___________________________________"-->
-            <!--android:fontFamily="sans-serif-light"-->
-            <!--android:textSize="17sp" />-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="-15dp"-->
+        <!--android:text="___________________________________"-->
+        <!--android:fontFamily="sans-serif-light"-->
+        <!--android:textSize="17sp" />-->
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_marginTop="-5dp"
-            android:enabled="false"/>
+            android:enabled="false" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -96,16 +120,17 @@
             android:fontFamily="sans-serif-light"
             android:text="Tanggal Berakhir"
             android:textColor="@color/white"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
         <!--<TextView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginLeft="20dp"-->
-            <!--android:layout_marginTop="-15dp"-->
-            <!--android:text="___________________________________"-->
-            <!--android:fontFamily="sans-serif-light"-->
-            <!--android:textSize="17sp" />-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="-15dp"-->
+        <!--android:text="___________________________________"-->
+        <!--android:fontFamily="sans-serif-light"-->
+        <!--android:textSize="17sp" />-->
 
         <TextView
             android:id="@+id/tvTglBerakhir"
@@ -124,21 +149,21 @@
             android:enabled="false" />
 
         <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="sans-serif-light"-->
-            <!--android:text="Lokasi"-->
-            <!--android:textColor="@color/white"-->
-            <!--android:textSize="17sp" />-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fontFamily="sans-serif-light"-->
+        <!--android:text="Lokasi"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="17sp" />-->
 
         <!--<EditText-->
-            <!--android:id="@+id/editLokasi"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:fontFamily="sans-serif-light"-->
-            <!--android:textColor="@color/white"-->
-            <!--android:textSize="17sp" -->
-            <!--android:enabled="false"/>-->
+        <!--android:id="@+id/editLokasi"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fontFamily="sans-serif-light"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="17sp" -->
+        <!--android:enabled="false"/>-->
 
         <LinearLayout
             android:id="@+id/linear_lokasi"
@@ -152,16 +177,17 @@
                 android:fontFamily="sans-serif-light"
                 android:text="Lokasi"
                 android:textColor="@color/white"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/editLokasi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:enabled="false"
                 android:fontFamily="sans-serif-light"
                 android:textColor="@color/white"
-                android:textSize="17sp"
-                android:enabled="false"/>
+                android:textSize="17sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -169,6 +195,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
+
             <Button
                 android:id="@+id/btn_ambil_gambar"
                 android:layout_width="wrap_content"
@@ -186,30 +213,30 @@
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:src="@mipmap/android_logo"
-                android:visibility="gone"/>
+                android:visibility="gone" />
 
         </LinearLayout>
 
         <!--<Button-->
-            <!--android:id="@+id/btn_post"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_gravity="center_horizontal"-->
-            <!--android:background="@color/white"-->
-            <!--android:layout_marginTop="25dp"-->
-            <!--android:layout_marginBottom="35dp"-->
-            <!--android:text="Pasang Barang Sewa"-->
-            <!--android:textColor="@color/bg_screen3"-->
-            <!--android:fontFamily="sans-serif-light"-->
-            <!--android:textSize="20sp" />-->
+        <!--android:id="@+id/btn_post"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:background="@color/white"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_marginBottom="35dp"-->
+        <!--android:text="Pasang Barang Sewa"-->
+        <!--android:textColor="@color/bg_screen3"-->
+        <!--android:fontFamily="sans-serif-light"-->
+        <!--android:textSize="20sp" />-->
 
         <LinearLayout
             android:id="@+id/linear_add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
             android:layout_marginBottom="35dp"
+            android:layout_marginTop="25dp"
             android:visibility="gone">
 
             <Button
@@ -217,10 +244,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
+                android:fontFamily="sans-serif-light"
                 android:text="Pasang Permintaan Barang"
                 android:textColor="@color/bg_screen3"
-                android:fontFamily="sans-serif-light"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -228,8 +255,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
             android:layout_marginBottom="35dp"
+            android:layout_marginTop="25dp"
             android:orientation="horizontal"
             android:visibility="gone">
 
@@ -237,36 +264,49 @@
                 android:id="@+id/btn_edit"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
                 android:layout_weight="1"
                 android:background="@color/white"
-                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-light"
                 android:text="Ubah"
                 android:textColor="@color/bg_screen3"
-                android:fontFamily="sans-serif-light"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btn_delete"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
                 android:layout_weight="1"
                 android:background="@color/white"
-                android:layout_marginLeft="25dp"
+                android:fontFamily="sans-serif-light"
                 android:text="Hapus"
                 android:textColor="@color/bg_screen3"
-                android:fontFamily="sans-serif-light"
                 android:textSize="20sp" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_close"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tutup"
-            android:background="@color/white"
-            android:textColor="@color/bg_screen3"
+        <!--<Button-->
+        <!--android:id="@+id/btn_close"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Tutup"-->
+        <!--android:background="@color/white"-->
+        <!--android:textColor="@color/bg_screen3"-->
+        <!--android:fontFamily="sans-serif-light"-->
+        <!--android:textSize="20sp" />-->
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-light"
-            android:textSize="20sp" />
+            android:gravity="bottom"
+            android:text="Tutup"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </ScrollView>

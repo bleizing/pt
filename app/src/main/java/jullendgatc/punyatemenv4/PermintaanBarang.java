@@ -13,12 +13,14 @@ public class PermintaanBarang {
     private String lat = "";
     private String lng = "";
     private int calon_penyewa_id;
+    private String calon_penyewa_nama = "";
+    private String calon_penyewa_no_hp = "";
 
     public PermintaanBarang() {
 
     }
 
-    public PermintaanBarang(int id, String nama, String deskripsi, String tgl_mulai, String tgl_berakhir, String lat, String lng, int calon_penyewa_id) {
+    public PermintaanBarang(int id, String nama, String deskripsi, String tgl_mulai, String tgl_berakhir, String lat, String lng, int calon_penyewa_id, String calon_penyewa_nama, String calon_penyewa_no_hp) {
         this.id = id;
         this.nama = nama;
         this.deskripsi = deskripsi;
@@ -27,6 +29,8 @@ public class PermintaanBarang {
         this.lat = lat;
         this.lng = lng;
         this.calon_penyewa_id = calon_penyewa_id;
+        this.calon_penyewa_nama = calon_penyewa_nama;
+        this.calon_penyewa_no_hp = calon_penyewa_no_hp;
     }
 
     public void setNama(String nama) {
@@ -91,5 +95,21 @@ public class PermintaanBarang {
 
     public int getCalon_penyewa_id() {
         return calon_penyewa_id;
+    }
+
+    public void setCalon_penyewa_nama(String calon_penyewa_nama) {
+        this.calon_penyewa_nama = calon_penyewa_nama;
+    }
+
+    public String getCalon_penyewa_nama() {
+        return calon_penyewa_nama;
+    }
+
+    public void setCalon_penyewa_no_hp(String calon_penyewa_no_hp) {
+        this.calon_penyewa_no_hp = calon_penyewa_no_hp;
+    }
+
+    public String getCalon_penyewa_no_hp() {
+        return calon_penyewa_no_hp;
     }
 }

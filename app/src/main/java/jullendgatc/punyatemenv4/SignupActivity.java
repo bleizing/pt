@@ -83,9 +83,21 @@ public class SignupActivity extends Activity {
                 final String email = inputEmail.getText().toString().trim();
                 final String password = inputPassword.getText().toString().trim();
 
+                String emailArr[] = email.split("@");
+                String formatEmail = emailArr[1].substring(0, 5);
+
+                Log.d(TAG, formatEmail);
+
                 if (TextUtils.isEmpty(email)) {
                     Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
                     return;
+                } else {
+                    if (!formatEmail.equals("yahoo")) {
+                        if (!formatEmail.equals("gmail")) {
+                            Toast.makeText(getApplicationContext(), "Enter valid email address using yahoo or gmail!", Toast.LENGTH_SHORT).show();
+                            return;
+                        }
+                    }
                 }
 
                 if (TextUtils.isEmpty(password)) {
