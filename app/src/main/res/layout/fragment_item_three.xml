@@ -79,6 +79,7 @@
             android:fontFamily="sans-serif-light"
             android:hint="+62"
             android:inputType="phone"
+            android:maxLength="16"
             android:textColor="@color/white"
             android:textSize="17sp" />
 

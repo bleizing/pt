@@ -213,27 +213,41 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="25dp">
 
-                <Button
+                <ImageView
                     android:id="@+id/btn_call"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginRight="20dp"
-                    android:layout_weight="0.5"
-                    android:background="@color/white"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Call"
-                    android:textColor="@color/bg_screen3" />
+                    android:src="@drawable/ic_action_phone"/>
 
-                <Button
+                <ImageView
                     android:id="@+id/btn_message"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_weight="0.5"
-                    android:background="@color/white"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Message"
-                    android:textColor="@color/bg_screen3" />
+                    android:src="@drawable/ic_action_message"/>
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_call"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:layout_weight="0.5"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:fontFamily="sans-serif-light"-->
+                    <!--android:text="Call"-->
+                    <!--android:textColor="@color/bg_screen3" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_message"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:layout_weight="0.5"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:fontFamily="sans-serif-light"-->
+                    <!--android:text="Message"-->
+                    <!--android:textColor="@color/bg_screen3" />-->
             </LinearLayout>
 
             <!--<TextView-->
