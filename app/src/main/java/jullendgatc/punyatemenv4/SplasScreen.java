@@ -10,6 +10,7 @@ public class SplasScreen extends Activity {
 
     private static int SPLASH_TIME_OUT = 5000;
     private ProgressBar mProgress;
+    private PrefManager prefManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,13 +19,26 @@ public class SplasScreen extends Activity {
 
         mProgress = (ProgressBar) findViewById(R.id.progressBar);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent i = new Intent(SplasScreen.this, HomeStart.class);
-                startActivity(i);
-                finish();
-            }
-        }, SPLASH_TIME_OUT);
+        prefManager = new PrefManager(this);
+
+        if (prefManager.getUser()) {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent i = new Intent(SplasScreen.this, MainActivity.class);
+                    startActivity(i);
+                    finish();
+                }
+            }, SPLASH_TIME_OUT);
+        } else {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent i = new Intent(SplasScreen.this, HomeStart.class);
+                    startActivity(i);
+                    finish();
+                }
+            }, SPLASH_TIME_OUT);
+        }
     }
 }

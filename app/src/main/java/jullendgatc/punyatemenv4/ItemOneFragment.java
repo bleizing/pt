@@ -145,12 +145,12 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
     @Override
     public void onResume() {
         super.onResume();
-        getCurrentLocation();
         permintaanBarang = null;
         barang = null;
         fab.setImageResource(android.R.drawable.ic_input_add);
         if (mMap != null) {
             mMap.clear();
+            getCurrentLocation();
             setCenterPoint();
             if (barangArrayList != null) {
                 if (barangArrayList.size() != 0) {

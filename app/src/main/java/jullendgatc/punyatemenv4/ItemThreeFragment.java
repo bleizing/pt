@@ -58,6 +58,8 @@ public class ItemThreeFragment extends Fragment {
 
     private RequestQueue requestQueue;
 
+    private PrefManager prefManager;
+
     public static ItemThreeFragment newInstance() {
         ItemThreeFragment fragment = new ItemThreeFragment();
         return fragment;
@@ -73,6 +75,9 @@ public class ItemThreeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_item_three,container,false);
 
         auth = FirebaseAuth.getInstance();
+
+        prefManager = new PrefManager(getActivity());
+
         // Request Queue Volley Network Connection
         requestQueue = Volley.newRequestQueue(getActivity());
 
@@ -141,6 +146,8 @@ public class ItemThreeFragment extends Fragment {
 
                                 Model.setPenyewa(penyewa);
 
+                                prefManager.setUser(penyewa);
+
 //                                setAttributeEditText(nama, no_ktp, no_hp);
                                 Toast.makeText(getActivity(), "Data Berhasil Diubah!", Toast.LENGTH_SHORT).show();
                             }
@@ -162,6 +169,7 @@ public class ItemThreeFragment extends Fragment {
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                prefManager.clearUser();
                 auth.signOut();
                 Intent intent = new Intent(getActivity(), HomeStart.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);

@@ -36,6 +36,8 @@ public class SignupActivity extends Activity {
     private ProgressBar progressBar;
     private FirebaseAuth auth;
 
+    private PrefManager prefManager;
+
     private RequestQueue requestQueue;
 
     @Override
@@ -49,6 +51,8 @@ public class SignupActivity extends Activity {
 
         //Get Firebase auth instance
         auth = FirebaseAuth.getInstance();
+
+        prefManager = new PrefManager(this);
 
         // Request Queue Volley Network Connection
         requestQueue = Volley.newRequestQueue(SignupActivity.this);
@@ -151,6 +155,8 @@ public class SignupActivity extends Activity {
 
                                                     Penyewa penyewa = new Penyewa(id, email);
                                                     Model.setPenyewa(penyewa);
+
+                                                    prefManager.setUser(penyewa);
 
                                                     Intent intent = new Intent(SignupActivity.this, MainActivity.class);
                                                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
