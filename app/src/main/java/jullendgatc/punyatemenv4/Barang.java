@@ -15,12 +15,13 @@ public class Barang {
     private String lat = "";
     private String lng = "";
     private int user_penyewa_id;
+    private String kategori;
 
     public Barang() {
 
     }
 
-    public Barang(int id, String nama, String deskripsi, String harga, String tgl_mulai, String tgl_berakhir, String foto_barang, String lat, String lng, int user_penyewa_id) {
+    public Barang(int id, String nama, String deskripsi, String harga, String tgl_mulai, String tgl_berakhir, String foto_barang, String lat, String lng, int user_penyewa_id, String kategori) {
         this.id = id;
         this.nama = nama;
         this.deskripsi = deskripsi;
@@ -31,6 +32,7 @@ public class Barang {
         this.lat = lat;
         this.lng = lng;
         this.user_penyewa_id = user_penyewa_id;
+        this.kategori = kategori;
     }
 
     public void setNama(String nama) {
@@ -111,5 +113,13 @@ public class Barang {
 
     public int getUser_penyewa_id() {
         return user_penyewa_id;
+    }
+
+    public void setKategori(String kategori) {
+        this.kategori = kategori;
+    }
+
+    public String getKategori() {
+        return kategori;
     }
 }

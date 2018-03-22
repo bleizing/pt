@@ -23,7 +23,7 @@ public class DetailPermintaanBarangActivity extends AppCompatActivity {
     private PermintaanBarang permintaanBarang;
     private EditText editNamaBarang, editDeskripsi, editLokasi, editNama, editNoHp;
 
-    private String addressLocation;
+//    private String addressLocation;
 
     private String no_hp;
 
@@ -53,14 +53,14 @@ public class DetailPermintaanBarangActivity extends AppCompatActivity {
             }
         }
 
-        addressLocation = "";
+//        addressLocation = "";
         no_hp = permintaanBarang.getCalon_penyewa_no_hp();
 
         editNama = (EditText) findViewById(R.id.edNama);
-        editNoHp = (EditText) findViewById(R.id.edNoHp);
+//        editNoHp = (EditText) findViewById(R.id.edNoHp);
         editNamaBarang = (EditText) findViewById(R.id.edNamaBarang);
         editDeskripsi = (EditText) findViewById(R.id.edDeskripsi);
-        editLokasi = (EditText) findViewById(R.id.editLokasi);
+//        editLokasi = (EditText) findViewById(R.id.editLokasi);
 
 //        Button btn_close = (Button) findViewById(R.id.btn_close);
 //        btn_close.setOnClickListener(new View.OnClickListener() {
@@ -98,48 +98,48 @@ public class DetailPermintaanBarangActivity extends AppCompatActivity {
             }
         });
 
-        getAddress();
+//        getAddress();
 
         setData();
     }
 
-    private void getAddress() {
-        StringBuilder result = new StringBuilder();
-        try {
-            Geocoder geocoder = new Geocoder(this, Locale.getDefault());
-            List<Address> addresses = geocoder.getFromLocation(Double.parseDouble(permintaanBarang.getLat()), Double.parseDouble(permintaanBarang.getLng()), 1);
-            if (addresses.size() > 0) {
-                Address address = addresses.get(0);
-                result.append(address.getLocality()).append("\n");
-                result.append(address.getCountryName()).append("\n");
-                result.append(address.getAddressLine(0)).append("\n");
-                result.append(address.getPostalCode()).append("\n");
-                result.append(address.getSubAdminArea()).append("\n");
-                result.append(address.getAdminArea()).append("\n");
-                result.append(address.getLatitude()).append("\n");
-                result.append(address.getLongitude()).append("\n");
-                result.append(address.getPhone()).append("\n");
-                result.append(address.getPremises()).append("\n");
-                result.append(address.getSubLocality()).append("\n");
-                result.append(address.getThoroughfare()).append("\n");
-                result.append(address.getSubThoroughfare()).append("\n");
-                result.append(address.getUrl()).append("\n");
-                result.append(address.getMaxAddressLineIndex()).append("\n");
-
-                Log.w(TAG, result.toString());
-//                    tv_address.setText(address.getAddressLine(0));
-                addressLocation = address.getAddressLine(0);
-            }
-        } catch (IOException e) {
-            Log.e(TAG, e.getMessage());
-        }
-    }
+//    private void getAddress() {
+//        StringBuilder result = new StringBuilder();
+//        try {
+//            Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+//            List<Address> addresses = geocoder.getFromLocation(Double.parseDouble(permintaanBarang.getLat()), Double.parseDouble(permintaanBarang.getLng()), 1);
+//            if (addresses.size() > 0) {
+//                Address address = addresses.get(0);
+//                result.append(address.getLocality()).append("\n");
+//                result.append(address.getCountryName()).append("\n");
+//                result.append(address.getAddressLine(0)).append("\n");
+//                result.append(address.getPostalCode()).append("\n");
+//                result.append(address.getSubAdminArea()).append("\n");
+//                result.append(address.getAdminArea()).append("\n");
+//                result.append(address.getLatitude()).append("\n");
+//                result.append(address.getLongitude()).append("\n");
+//                result.append(address.getPhone()).append("\n");
+//                result.append(address.getPremises()).append("\n");
+//                result.append(address.getSubLocality()).append("\n");
+//                result.append(address.getThoroughfare()).append("\n");
+//                result.append(address.getSubThoroughfare()).append("\n");
+//                result.append(address.getUrl()).append("\n");
+//                result.append(address.getMaxAddressLineIndex()).append("\n");
+//
+//                Log.w(TAG, result.toString());
+////                    tv_address.setText(address.getAddressLine(0));
+//                addressLocation = address.getAddressLine(0);
+//            }
+//        } catch (IOException e) {
+//            Log.e(TAG, e.getMessage());
+//        }
+//    }
 
     private void setData() {
         editNama.setText(permintaanBarang.getCalon_penyewa_nama());
-        editNoHp.setText(permintaanBarang.getCalon_penyewa_no_hp());
+//        editNoHp.setText(permintaanBarang.getCalon_penyewa_no_hp());
         editNamaBarang.setText(permintaanBarang.getNama());
         editDeskripsi.setText(permintaanBarang.getDeskripsi());
-        editLokasi.setText(addressLocation);
+//        editLokasi.setText(addressLocation);
     }
 }

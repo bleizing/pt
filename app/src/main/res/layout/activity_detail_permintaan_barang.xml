@@ -50,23 +50,23 @@
                 android:textColor="@color/white"
                 android:textSize="17sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:text="No HP"
-                android:textColor="@color/white"
-                android:textSize="17sp"
-                android:textStyle="bold" />
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:fontFamily="sans-serif-light"-->
+                <!--android:text="No HP"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="17sp"-->
+                <!--android:textStyle="bold" />-->
 
-            <EditText
-                android:id="@+id/edNoHp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:enabled="false"
-                android:fontFamily="sans-serif-light"
-                android:textColor="@color/white"
-                android:textSize="17sp" />
+            <!--<EditText-->
+                <!--android:id="@+id/edNoHp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:enabled="false"-->
+                <!--android:fontFamily="sans-serif-light"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="17sp" />-->
 
             <TextView
                 android:layout_width="wrap_content"
@@ -152,30 +152,30 @@
             <!--android:layout_marginTop="-5dp"-->
             <!--android:enabled="false" />-->
 
-            <LinearLayout
-                android:id="@+id/linear_lokasi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+            <!--<LinearLayout-->
+                <!--android:id="@+id/linear_lokasi"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:text="Lokasi"
-                    android:textColor="@color/white"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:fontFamily="sans-serif-light"-->
+                    <!--android:text="Lokasi"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="17sp"-->
+                    <!--android:textStyle="bold" />-->
 
-                <EditText
-                    android:id="@+id/editLokasi"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:enabled="false"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="@color/white"
-                    android:textSize="17sp" />
-            </LinearLayout>
+                <!--<EditText-->
+                    <!--android:id="@+id/editLokasi"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:enabled="false"-->
+                    <!--android:fontFamily="sans-serif-light"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="17sp" />-->
+            <!--</LinearLayout>-->
 
             <!--<TextView-->
             <!--android:layout_width="wrap_content"-->

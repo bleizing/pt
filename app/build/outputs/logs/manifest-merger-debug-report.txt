@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:17:1-31:12
 MERGED from [com.code-troopers.betterpickers:library:3.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\library-3.0.0.aar\b25c2123741618b6f2caa030e7653728\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-11.4.2.aar\899eae6bb772de45d8b4b31d72f2af5f\AndroidManifest.xml:2:1-6:12
@@ -63,7 +63,7 @@ MERGED from [com.google.firebase:firebase-storage-common:11.4.2] C:\Users\Bleizi
 MERGED from [com.google.android.gms:play-services-gass:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.4.2.aar\cb8b04becc37d116c02c860a0a0631b1\AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:16:1-23:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33561ba1caeb135eed212c040a35027a\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\c22e9d768dca8cf391f19819f6e3fba0\AndroidManifest.xml:17:1-28:12
@@ -125,20 +125,20 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] 
 MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.4.2.aar\6a3c1388bf1dfb3c0da1fc187bea5571\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-11.4.2.aar\6ff4b890755fe26a3b61c36392c9a1ca\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:2:1-6:12
-INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:2:11-69
@@ -213,11 +213,11 @@ ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4
 	android:name
 		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.ACCESS_GPS
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:13:5-69
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:12:5-69
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:13:22-66
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:12:22-66
 application
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:15:5-54:19
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:14:5-53:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\6e569af5d8234481146c457739abd74b\AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.android.gms:play-services:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-11.4.2.aar\899eae6bb772de45d8b4b31d72f2af5f\AndroidManifest.xml:5:5-20
@@ -314,8 +314,8 @@ MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Blei
 MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33561ba1caeb135eed212c040a35027a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33561ba1caeb135eed212c040a35027a\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:22:5-26:19
@@ -439,91 +439,91 @@ MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] C:\User
 MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\8c85d57b8f9c3de356bc6afa69d3e9c2\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:18:9-41
-	android:roundIcon
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:19:9-54
-	android:icon
 		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:16:9-41
 	android:allowBackup
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:20:9-40
 activity#jullendgatc.punyatemenv4.SplasScreen
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:22:19-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:21:19-46
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:25:27-74
 activity#jullendgatc.punyatemenv4.LoginForm
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:29:9-30:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:28:9-29:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:30:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:29:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:29:19-44
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:28:19-44
 activity#jullendgatc.punyatemenv4.SignupActivity
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:31:9-32:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:30:9-31:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:32:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:31:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:31:19-49
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:30:19-49
 activity#jullendgatc.punyatemenv4.DetailItemInput
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:33:9-35:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:32:9-34:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:35:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:34:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:34:13-44
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:33:13-44
 activity#jullendgatc.punyatemenv4.ResetPasswordActivity
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:36:9-37:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:35:9-36:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:37:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:36:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:36:19-56
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:35:19-56
 activity#jullendgatc.punyatemenv4.MainActivity
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:38:9-40:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:37:9-39:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:40:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:39:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:38:13-41
 activity#jullendgatc.punyatemenv4.HomeStart
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:41:9-42:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:40:9-41:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:42:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:41:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:41:19-44
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:40:19-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:44:9-46:71
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:43:9-45:71
 	android:value
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:46:13-68
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:45:13-68
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:45:13-58
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:44:13-58
 activity#jullendgatc.punyatemenv4.Welcome
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:48:9-49:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:47:9-48:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:49:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:48:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:48:19-42
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:47:19-42
 activity#jullendgatc.punyatemenv4.FormVeirifkasi
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:50:9-51:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:49:9-50:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:51:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:50:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:50:19-49
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:49:19-49
 activity#jullendgatc.punyatemenv4.DetailPermintaanBarangActivity
-ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:52:9-53:49
+ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:51:9-52:49
 	android:theme
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:53:13-46
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:52:13-46
 	android:name
-		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:52:19-65
+		ADDED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml:51:19-65
 uses-sdk
 INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Dimas\KALBIS\Kerja\Freelance\Pak Jullend\PunyaTemenv4\PunyaTemenv4\app\src\main\AndroidManifest.xml
@@ -646,8 +646,8 @@ MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Blei
 MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\aec06efc0581ae0ee105d1301888e7ea\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0b7af0720f305b4888d1b8bbdaab0e03\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1db7d8721bece29dd6174ac72aeb4ba5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33561ba1caeb135eed212c040a35027a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33561ba1caeb135eed212c040a35027a\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\08fb3c37fd2981ffd400e77064df647e\AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Bleizing\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\de90eca630eee806e35420c9e65ec956\AndroidManifest.xml:20:5-44

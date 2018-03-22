@@ -68,19 +68,16 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 
-public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
-        GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener,
-        LocationListener {
+public class ItemOneFragment extends Fragment implements OnMapReadyCallback {
 
     private static final String TAG = "ItemOneFragment";
 
     GoogleMap mMap;
-    SupportMapFragment mapFrag;
-    LocationRequest mLocationRequest;
-    GoogleApiClient mGoogleApiClient;
-    Location mLastLocation;
-    Marker mCurrLocationMarker;
+//    SupportMapFragment mapFrag;
+//    LocationRequest mLocationRequest;
+//    GoogleApiClient mGoogleApiClient;
+//    Location mLastLocation;
+//    Marker mCurrLocationMarker;
 
     private RequestQueue requestQueue;
 
@@ -96,7 +93,7 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
     private Double lat, lng;
 
-    private LocationManager locationManager;
+//    private LocationManager locationManager;
 
     public static ItemOneFragment newInstance() {
         ItemOneFragment fragment = new ItemOneFragment();
@@ -114,11 +111,14 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         barangArrayList = new ArrayList<>();
         permintaanBarangArrayList = new ArrayList<>();
 
-        lat = -6.175206;
-        lng = 106.827131;
+        lat = Model.getLat();
+        lng = Model.getLng();
 
-        locationManager = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
-        getCurrentLocation();
+//        lat = -6.175206;
+//        lng = 106.827131;
+//
+//        locationManager = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
+//        getCurrentLocation();
     }
 
     @Override
@@ -150,7 +150,7 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
         fab.setImageResource(android.R.drawable.ic_input_add);
         if (mMap != null) {
             mMap.clear();
-            getCurrentLocation();
+//            getCurrentLocation();
             setCenterPoint();
             if (barangArrayList != null) {
                 if (barangArrayList.size() != 0) {
@@ -174,6 +174,11 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
+        if (penyewa == null) {
+            Log.d(TAG, "penyewa null");
+            penyewa = Model.getPenyewa();
+//            Log.d(TAG, "penyewa id = " + Model.getPenyewa().getId());
+        }
         mMap = googleMap;
         googleMap.getUiSettings().setMyLocationButtonEnabled(true);
 
@@ -220,78 +225,78 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
 
     }
 
-    @Override
-    public void onConnected(@Nullable Bundle bundle) {
+//    @Override
+//    public void onConnected(@Nullable Bundle bundle) {
+//
+//    }
+//
+//    @Override
+//    public void onConnectionSuspended(int i) {
+//
+//    }
+//
+//    @Override
+//    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+//
+//    }
+//
+//    @Override
+//    public void onLocationChanged(Location location) {
+////        lat = location.getLatitude();
+////        lng = location.getLongitude();
+//    }
 
-    }
-
-    @Override
-    public void onConnectionSuspended(int i) {
-
-    }
-
-    @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-    }
-
-    @Override
-    public void onLocationChanged(Location location) {
-//        lat = location.getLatitude();
-//        lng = location.getLongitude();
-    }
-
-    private void getCurrentLocation() {
-        if (locationManager != null) {
-            if (ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
-                return;
-            }
-            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-            if (location != null) {
-                lat = location.getLatitude();
-                lng = location.getLongitude();
-
-//                getAddress();
-            }
-        }
-        if (ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
-        }
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
-    }
-
-    private android.location.LocationListener locationListener = new android.location.LocationListener() {
-        @Override
-        public void onLocationChanged(Location location) {
-            lat = location.getLatitude();
-            lng = location.getLongitude();
-
-//            getAddress();
-        }
-
-        @Override
-        public void onStatusChanged(String provider, int status, Bundle extras) {
-
-        }
-
-        @Override
-        public void onProviderEnabled(String provider) {
-
-        }
-
-        @Override
-        public void onProviderDisabled(String provider) {
-            Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
-            startActivity(intent);
-        }
-    };
+//    private void getCurrentLocation() {
+//        if (locationManager != null) {
+//            if (ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//                // TODO: Consider calling
+//                //    ActivityCompat#requestPermissions
+//                // here to request the missing permissions, and then overriding
+//                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+//                //                                          int[] grantResults)
+//                // to handle the case where the user grants the permission. See the documentation
+//                // for ActivityCompat#requestPermissions for more details.
+//                return;
+//            }
+//            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+//            if (location != null) {
+//                lat = location.getLatitude();
+//                lng = location.getLongitude();
+//
+////                getAddress();
+//            }
+//        }
+//        if (ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity(), android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
+//        }
+//        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
+//    }
+//
+//    private android.location.LocationListener locationListener = new android.location.LocationListener() {
+//        @Override
+//        public void onLocationChanged(Location location) {
+//            lat = location.getLatitude();
+//            lng = location.getLongitude();
+//
+////            getAddress();
+//        }
+//
+//        @Override
+//        public void onStatusChanged(String provider, int status, Bundle extras) {
+//
+//        }
+//
+//        @Override
+//        public void onProviderEnabled(String provider) {
+//
+//        }
+//
+//        @Override
+//        public void onProviderDisabled(String provider) {
+//            Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+//            startActivity(intent);
+//        }
+//    };
 
     private void fbClicked() {
         Intent intent;
@@ -311,6 +316,10 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
     }
 
     private void getBarangSewa() {
+        if (penyewa == null) {
+            penyewa = Model.getPenyewa();
+            Log.d(TAG, "penyewa id = " + penyewa.getId());
+        }
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, NetAPI.GET_BARANG_SEWA_BY_USER_PENYEWA_ID + penyewa.getId(), null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
@@ -330,9 +339,10 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
                         String foto = jsonObject.getString("foto");
                         String lat = jsonObject.getString("lat");
                         String lng = jsonObject.getString("lng");
+                        String kategori = jsonObject.getString("kategori");
                         int user_penyewa_id = Integer.parseInt(jsonObject.getString("user_penyewa_id"));
 
-                        Barang barang = new Barang(id, nama, deskripsi, harga, tgl_mulai, tgl_berakhir, foto, lat, lng, user_penyewa_id);
+                        Barang barang = new Barang(id, nama, deskripsi, harga, tgl_mulai, tgl_berakhir, foto, lat, lng, user_penyewa_id, kategori);
                         barangArrayList.add(barang);
                     }
                     Model.setBarangArrayList(barangArrayList);
@@ -507,7 +517,7 @@ public class ItemOneFragment extends Fragment implements OnMapReadyCallback,
             if (lat != 0.0 && lng != 0.0) {
                 LatLng latLng = new LatLng(lat, lng);
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-                mMap.animateCamera( CameraUpdateFactory.zoomTo( 12.0f ) );
+                mMap.animateCamera( CameraUpdateFactory.zoomTo( 13.0f ) );
             }
         }
     }

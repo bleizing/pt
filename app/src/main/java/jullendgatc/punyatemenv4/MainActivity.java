@@ -13,7 +13,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Penyewa penyewa;
+//    private Penyewa penyewa;
 //    private boolean is_fab_show;
 
 //    private FloatingActionButton fab;
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        is_fab_show = false;
 
-        penyewa = Model.getPenyewa();
+//        penyewa = Model.getPenyewa();
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
 

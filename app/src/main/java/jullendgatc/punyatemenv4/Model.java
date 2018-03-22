@@ -1,5 +1,7 @@
 package jullendgatc.punyatemenv4;
 
+import com.google.android.gms.maps.model.LatLng;
+
 import java.util.ArrayList;
 
 /**
@@ -10,6 +12,9 @@ public class Model {
     private static Penyewa penyewa;
     private static ArrayList<Barang> barangArrayList;
     private static ArrayList<PermintaanBarang> permintaanBarangArrayList;
+
+    private static double lat = -6.175206;
+    private static double lng = 106.827131;
 
     public static void setPenyewa(Penyewa penyewa) {
         Model.penyewa = penyewa;
@@ -33,5 +38,21 @@ public class Model {
 
     public static ArrayList<PermintaanBarang> getPermintaanBarangArrayList() {
         return permintaanBarangArrayList;
+    }
+
+    public static void setLat(double lat) {
+        Model.lat = lat;
+    }
+
+    public static double getLat() {
+        return lat;
+    }
+
+    public static void setLng(double lng) {
+        Model.lng = lng;
+    }
+
+    public static double getLng() {
+        return lng;
     }
 }

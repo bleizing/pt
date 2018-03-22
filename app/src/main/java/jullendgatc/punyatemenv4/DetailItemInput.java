@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -18,10 +19,14 @@ import android.text.format.DateFormat;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewTreeObserver;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,7 +43,9 @@ import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Locale;
 
 public class DetailItemInput extends AppCompatActivity {
@@ -60,13 +67,15 @@ public class DetailItemInput extends AppCompatActivity {
     private ImageView img_foto_barang;
     private String tgl_mulai, tgl_berakhir;
 
+    private String kategori;
+
     private String type;
 
     private LinearLayout linearAdd, linearModif, linearLokasi, linearFoto;
 
     private double lat,lng;
 
-    private LocationManager locationManager;
+//    private LocationManager locationManager;
 
     private int PICK_IMAGE_REQUEST = 1;
     private Bitmap bitmap;
@@ -97,7 +106,12 @@ public class DetailItemInput extends AppCompatActivity {
             }
         }
 
+        lat = Model.getLat();
+        lng = Model.getLng();
+
         type = "";
+
+        kategori = "";
 
         penyewa = Model.getPenyewa();
 
@@ -127,8 +141,41 @@ public class DetailItemInput extends AppCompatActivity {
         linearModif = (LinearLayout) findViewById(R.id.linear_modif);
         linearFoto = (LinearLayout) findViewById(R.id.linear_foto);
 
-        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        getCurrentLocation();
+//        locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+//        getCurrentLocation();
+
+        List<String> categories = new ArrayList<String>();
+        categories.add("Kendaraan");
+        categories.add("Elektronik");
+        categories.add("Hobi");
+        categories.add("Kebutuhan anak dan bayi");
+        categories.add("Travel");
+        categories.add("Perhiasan");
+
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        final Spinner spin_kategori = (Spinner) findViewById(R.id.spin_kategori);
+        spin_kategori.setAdapter(dataAdapter);
+
+        spin_kategori.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                kategori = adapterView.getItemAtPosition(i).toString();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+        spin_kategori.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @Override
+            public void onGlobalLayout() {
+                ((TextView) spin_kategori.getSelectedView()).setTextColor(Color.WHITE);
+            }
+        });
 
         if (barang != null) {
             linearLokasi.setVisibility(View.GONE);
@@ -149,6 +196,9 @@ public class DetailItemInput extends AppCompatActivity {
             editHarga.setText(barang.getHarga().toString());
             tvTglMulai.setText(tglMulai);
             tvTglBerakhir.setText(tglBerakhir);
+
+            int spinnerPosition = dataAdapter.getPosition(barang.getKategori());
+            spin_kategori.setSelection(spinnerPosition);
         } else {
             linearLokasi.setVisibility(View.VISIBLE);
             linearAdd.setVisibility(View.VISIBLE);
@@ -156,6 +206,8 @@ public class DetailItemInput extends AppCompatActivity {
             linearFoto.setVisibility(View.VISIBLE);
             type = "insertBarang";
         }
+
+        getAddress();
 
         Button btn_ambil_gambar = (Button) findViewById(R.id.btn_ambil_gambar);
         btn_ambil_gambar.setOnClickListener(new View.OnClickListener() {
@@ -292,8 +344,8 @@ public class DetailItemInput extends AppCompatActivity {
         String tgl_berakhir = tvTglBerakhir.getText().toString().trim();
         String image = "";
         String latlng = "";
-        String lat = "-6.175206";
-        String lng = "106.827131";
+        String lat = String.valueOf(Model.getLat());
+        String lng = String.valueOf(Model.getLng());
         if (barang == null) {
             latlng = editLokasi.getText().toString().trim();
 
@@ -350,10 +402,10 @@ public class DetailItemInput extends AppCompatActivity {
                 return;
             }
         }
-        sendData(nama, deskripsi, harga, tgl_mulai, tgl_berakhir, image, lat, lng);
+        sendData(nama, deskripsi, harga, tgl_mulai, tgl_berakhir, image, lat, lng, kategori);
     }
 
-    private void sendData(String nama, String deskripsi, String harga, String tgl_mulai, String tgl_berakhir, String image, String lat, String lng) {
+    private void sendData(String nama, String deskripsi, String harga, String tgl_mulai, String tgl_berakhir, String image, String lat, String lng, String kategori) {
         // Create a JSON Object
         JSONObject jsonObject = new JSONObject();
         try {
@@ -366,6 +418,7 @@ public class DetailItemInput extends AppCompatActivity {
                 jsonObject.put("tanggal_berakhir", tgl_berakhir);
                 jsonObject.put("lat", lat);
                 jsonObject.put("lng", lng);
+                jsonObject.put("kategori", kategori);
                 jsonObject.put("user_penyewa_id", penyewa.getId());
                 jsonObject.put("foto", image);
             }
@@ -413,57 +466,57 @@ public class DetailItemInput extends AppCompatActivity {
         return encodedImage;
     }
 
-    private LocationListener locationListener = new LocationListener() {
-        @Override
-        public void onLocationChanged(Location location) {
-            lat = location.getLatitude();
-            lng = location.getLongitude();
+//    private LocationListener locationListener = new LocationListener() {
+//        @Override
+//        public void onLocationChanged(Location location) {
+//            lat = location.getLatitude();
+//            lng = location.getLongitude();
+//
+//            getAddress();
+//        }
+//
+//        @Override
+//        public void onStatusChanged(String provider, int status, Bundle extras) {
+//
+//        }
+//
+//        @Override
+//        public void onProviderEnabled(String provider) {
+//
+//        }
+//
+//        @Override
+//        public void onProviderDisabled(String provider) {
+//            Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+//            startActivity(intent);
+//        }
+//    };
 
-            getAddress();
-        }
-
-        @Override
-        public void onStatusChanged(String provider, int status, Bundle extras) {
-
-        }
-
-        @Override
-        public void onProviderEnabled(String provider) {
-
-        }
-
-        @Override
-        public void onProviderDisabled(String provider) {
-            Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
-            startActivity(intent);
-        }
-    };
-
-    private void getCurrentLocation() {
-        if (locationManager != null) {
-            if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
-                return;
-            }
-            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-            if (location != null) {
-                lat = location.getLatitude();
-                lng = location.getLongitude();
-
-                getAddress();
-            }
-        }
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
-        }
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
-    }
+//    private void getCurrentLocation() {
+//        if (locationManager != null) {
+//            if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//                // TODO: Consider calling
+//                //    ActivityCompat#requestPermissions
+//                // here to request the missing permissions, and then overriding
+//                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+//                //                                          int[] grantResults)
+//                // to handle the case where the user grants the permission. See the documentation
+//                // for ActivityCompat#requestPermissions for more details.
+//                return;
+//            }
+//            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+//            if (location != null) {
+//                lat = location.getLatitude();
+//                lng = location.getLongitude();
+//
+//                getAddress();
+//            }
+//        }
+//        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
+//        }
+//        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 10, locationListener);
+//    }
 
     private void getAddress() {
         editLokasi.setText("" + lat + ", " + lng + "");
