@@ -137,8 +137,8 @@ public class SplasScreen extends Activity {
 //        handleNewLocation(location);
 //    }
 
-    private void displayLocationSettingsRequest(Context context) {
-        GoogleApiClient googleApiClient = new GoogleApiClient.Builder(context)
+   private void displayLocationSettingsRequest(Context context) {
+            GoogleApiClient googleApiClient = new GoogleApiClient.Builder(context)
                 .addApi(LocationServices.API)
                 .build();
         googleApiClient.connect();
